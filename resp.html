@@ -1,0 +1,4140 @@
+<SCRIPT LANGUAGE="JavaScript">
+
+            document.cookie = "LC_SUBJECT593365="+"BIOL,";
+            document.cookie = "LC_TERM593365="+"201510";
+            document.cookie = "LC_HOURS593365="+"";
+            document.cookie = "LC_COURSE593365="+"";
+            document.cookie = "LC_TITLE593365="+"";
+            document.cookie = "LC_DEPT593365="+"ALL";
+            document.cookie = "LC_INSTRUCTOR593365="+"";
+            document.cookie = "LC_ATTRIB593365="+"ALL";
+            document.cookie = "LC_DESCRIPTION593365="+"";
+            document.cookie = "LC_INDP593365="+"on";
+            document.cookie = "LC_CREDIT593365="+"ALL";
+
+    
+
+
+        document.cookie = 'LC_SUBJECT593365'+"="+'BIOL,'+"; path=/";
+        document.cookie = 'LC_TERM593365'+"="+'201510'+"; path=/";
+        document.cookie = 'LC_HOURS593365'+"="+''+"; path=/";
+        document.cookie = 'LC_COURSE593365'+"="+''+"; path=/";
+        document.cookie = 'LC_TITLE593365'+"="+''+"; path=/";
+        document.cookie = 'LC_DEPT593365'+"="+'ALL'+"; path=/";
+        document.cookie = 'LC_INSTRUCTOR593365'+"="+''+"; path=/";
+        document.cookie = 'LC_ATTRIB593365'+"="+'ALL'+"; path=/";
+        document.cookie = 'LC_DESCRIPTION593365'+"="+''+"; path=/";
+        document.cookie = 'LC_INDP593365'+"="+'on'+"; path=/";
+        document.cookie = 'LC_CREDIT593365'+"="+'ALL'+"; path=/";
+
+  </SCRIPT>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<HTML lang="en">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<META HTTP-EQUIV="Pragma" NAME="Cache-Control" CONTENT="no-cache">
+<META HTTP-EQUIV="Cache-Control" NAME="Cache-Control" CONTENT="no-cache">
+<LINK REL="stylesheet" HREF="/css/web_defaultapp.css" TYPE="text/css">
+<LINK REL="stylesheet" HREF="/css/web_defaultprint.css" TYPE="text/css" media="print">
+<TITLE>Brown Course Scheduler</TITLE>
+<META HTTP-EQUIV="Content-Script-Type" NAME="Default_Script_Language" CONTENT="text/javascript">
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+window.onunload = function() {submitcount=0;}
+var submitcount=0;
+function checkSubmit() {
+if (submitcount == 0)
+   {
+   submitcount++;
+   return true;
+   }
+else
+   {
+alert("Your changes have already been submitted.");
+   return false;
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!-- Hide JavaScript from older browsers 
+//  Function to open a window
+function windowOpen(window_url) {
+   helpWin = window.open(window_url,'','toolbar=yes,status=no,scrollbars=yes,menubar=yes,resizable=yes,directories=no,location=no,width=350,height=400');
+   if (document.images) { 
+       if (helpWin) helpWin.focus()
+   }
+}
+//  End script hiding -->
+</SCRIPT>
+</HEAD>
+<BODY>
+<DIV class="headerwrapperdiv">
+<DIV class="pageheaderdiv1">
+<A HREF="#main_content" onMouseover="window.status='Go to Main Content'; return true" onMouseout="window.status=''; return true" OnFocus="window.status='Go to Main Content'; return true" onBlur="window.status=''; return true" class="skiplinks">Go to Main Content</A>
+<H1>Brown University</H1></DIV><DIV class="headerlinksdiv">
+<SPAN class="pageheaderlinks2">
+<MAP NAME="Module_Navigation_Links_H" title="Module Navigation Links">
+<p>
+<A HREF="#skip_Module_Navigation_Links_H" onMouseover="window.status='Skip Module Navigation Links'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Skip Module Navigation Links'; return true" onBlur="window.status=''; return true"  class="skiplinks">Skip Module Navigation Links</A>
+<TABLE  CLASS="plaintable" SUMMARY="This is main table for displaying Tab Items."
+                          WIDTH="100%" cellSpacing=0 cellPadding=0 border=0>
+<TR>
+<TD CLASS="pldefault">
+<TABLE  CLASS="plaintable" SUMMARY="This table displays Tab Items."
+                 cellSpacing=0 cellPadding=0 border=0>
+<TR>
+<td class="taboff" height=22>
+<A HREF="/ss/twbkwbis.P_GenMenu?name=bmenu.P_GenMnu" onMouseover="window.status='Personal Information'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Personal Information'; return true" onBlur="window.status=''; return true" >Personal Information</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="tabon"  height=22>
+<A HREF="/ss/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu" onMouseover="window.status='Student'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Student'; return true" onBlur="window.status=''; return true" >Student</A>
+</TD>
+<TD class="bgtabon"  height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="taboff" height=22>
+<A HREF="/ss/twbkwbis.P_GenMenu?name=bmenu.P_FinAidMainMnu" onMouseover="window.status='Financial Aid'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Financial Aid'; return true" onBlur="window.status=''; return true" >Financial Aid</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+<td class="taboff" height=22>
+<A HREF="/ss/twbkwbis.P_GenMenu?name=bmenu.P_ProxyMenu" onMouseover="window.status='Proxy Access Menu'; return true" onMouseout="window.status=''; return true" onFocus="window.status='Proxy Access Menu'; return true" onBlur="window.status=''; return true" >Proxy Access</A>
+</TD>
+<TD class="bgtaboff" height=22 vAlign="top" align="right">
+<IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" CLASS="headerImg" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+</TD>
+</TR>
+</TABLE>
+</TD>
+</TR>
+<TR>
+<TD class="bgtabon" width="100%" colSpan=2><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD></TR></TABLE>
+</MAP>
+</SPAN>
+<a name="skip_Module_Navigation_Links_H"></a>
+</DIV>
+<TABLE  CLASS="plaintable" SUMMARY="This table displays Menu Items and Banner Search textbox."
+         WIDTH="100%">
+<TR>
+<TD CLASS="pldefault">
+<DIV class="headerlinksdiv2">
+<FORM ACTION="/ss/twbksrch.P_ShowResults" METHOD="POST">
+Search
+<SPAN class="fieldlabeltextinvisible"><LABEL for=keyword_in_id><SPAN class="fieldlabeltext">Search</SPAN></LABEL></SPAN>
+<INPUT TYPE="text" NAME="KEYWRD_IN" SIZE="20" MAXLENGTH="65" ID="keyword_in_id">
+<INPUT TYPE="submit" VALUE="Go">
+</FORM>
+</div>
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext">
+<SPAN class="pageheaderlinks">
+<A HREF="/ss/twbkwbis.P_GenMenu?name=bmenu.P_StuMainMnu"  class="submenulinktext2" id="ssbbackurl">RETURN TO MENU</A>
+|
+<A HREF="/ss/twbksite.P_DispSiteMap?menu_name_in=bmenu.P_MainMnu&amp;depth_in=2&amp;columns_in=3" accesskey="2" class="submenulinktext2">SITE MAP</A>
+|
+<A HREF="/wtlhelp/twbhhelp.htm" accesskey="H" onClick="popup = window.open('/wtlhelp/twbhhelp.htm', 'PopupPage','height=500,width=450,scrollbars=yes,resizable=yes'); return false" target="_blank" onMouseOver="window.status='';  return true" onMouseOut="window.status=''; return true"onFocus="window.status='';  return true" onBlur="window.status=''; return true"  class="submenulinktext2">HELP</A>
+|
+<A HREF="twbkwbis.P_Logout" accesskey="3" class="submenulinktext2">EXIT</A>
+</span>
+</TD>
+</TR>
+</TABLE>
+</DIV>
+<DIV class="pagetitlediv">
+<TABLE  CLASS="plaintable" SUMMARY="This table displays title and static header displays."
+   WIDTH="100%">
+<TR>
+<TD CLASS="pldefault">
+&nbsp;
+</TD>
+<TD CLASS="pldefault">
+&nbsp;
+</TD>
+<TD CLASS="pldefault"><p class="rightaligntext">
+<DIV class="staticheaders">
+</div>
+</TD>
+</TR>
+<TR>
+<TD class="bg3" width="100%" colSpan=3><IMG SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" CLASS="headerImg" TITLE="Transparent Image"  NAME="web_transparent" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10></TD>
+</TR>
+</TABLE>
+<a name="main_content"></a>
+</DIV>
+<DIV class="pagebodydiv">
+<!--  ** END OF twbkwbis.P_OpenDoc **  -->
+<style type="text/css" media="all">
+
+   .dynamic-tab-pane-control.tab-pane {
+    position:  relative;
+    width:    100%;    /* width needed weird IE bug */
+    margin-right:  -2px;  /* to make room for the shadow */
+
+    }
+
+    .dynamic-tab-pane-control .tab-row .tab {
+    position: relative;
+    left:20px;
+    top:      0;
+    display:  inline;
+    float:    left;
+    overflow: hidden;
+    cursor:   Default;
+    margin:   1px -1px 1px 2px;
+    padding:  2px 0px 0px 0px;
+    border:   0;
+    z-index:  1;
+    font-family: Calibri,Arial;
+    font-size:14px;
+    white-space:  nowrap;
+    text-align:    center;
+    }
+
+    .dynamic-tab-pane-control .tab-row .tab.selected {
+    background-repeat:  no-repeat;
+    border-bottom-width:  0;
+    z-index:    3;
+    font-family: Calibri,Arial;
+    font-size:14px;
+    }
+
+    .dynamic-tab-pane-control .tab-row .tab a {
+    font-family: Calibri,Arial;
+    font-size:14px;
+    color:       Black;
+    text-decoration:  none;
+    cursor:        default;
+    }
+
+    .dynamic-tab-pane-control .tab-row .tab.hover {
+    font:        13px Calibri;
+    }
+
+    .dynamic-tab-pane-control .tab-page {
+    clear:      both;
+    border-top:     1px solid black;
+    left:20px;
+    width: 625px;
+    height: auto;
+    z-index:    2;
+    position:   relative;
+    top:        -2px;
+    font-family: Arial,Calibri;
+    font-size:14px;
+    color:      Black;
+    }
+
+    .dynamic-tab-pane-control .tab-row {
+    z-index:    1;
+    white-space:  nowrap;
+    }
+
+
+    </style>
+
+<script type="text/javascript">
+
+// This function is used to define if the browser supports the needed
+// features
+function hasSupport() {
+
+  if (typeof hasSupport.support != "undefined")
+    return hasSupport.support;
+
+  var ie55 = /msie 5\.[56789]/i.test( navigator.userAgent );
+
+  hasSupport.support = ( typeof document.implementation != "undefined" &&
+      document.implementation.hasFeature( "html", "1.0" ) || ie55 )
+
+  // IE55 has a serious DOM1 bug... Patch it!
+  if ( ie55 ) {
+    document._getElementsByTagName = document.getElementsByTagName;
+    document.getElementsByTagName = function ( sTagName ) {
+      if ( sTagName == "*" )
+        return document.all;
+      else
+        return document._getElementsByTagName( sTagName );
+    };
+  }
+
+  return hasSupport.support;
+}
+
+///////////////////////////////////////////////////////////////////////////////////
+// The constructor for tab panes
+//
+// el : HTMLElement    The html element used to represent the tab pane
+// bUseCookie : Boolean  Optional. Default is true. Used to determine whether to us
+//            persistance using cookies or not
+//
+function WebFXTabPane( el, bUseCookie ) {
+  if ( !hasSupport() || el == null ) return;
+  this.element = el;
+  this.element.tabPane = this;
+  this.pages = [];
+  this.selectedIndex = null;
+  this.useCookie = bUseCookie != null ? bUseCookie : true;
+
+  // add class name tag to class name
+  this.element.className = this.classNameTag + " " + this.element.className;
+
+  // add tab row
+  this.tabRow = document.createElement( "div" );
+  this.tabRow.className = "tab-row";
+  el.insertBefore( this.tabRow, el.firstChild );
+
+  var tabIndex = 0;
+  if ( this.useCookie ) {
+    tabIndex = Number( WebFXTabPane.getCookie( "webfxtab_" + this.element.id ) );
+    if ( isNaN( tabIndex ) )
+      tabIndex = 0;
+  }
+  this.selectedIndex = tabIndex;
+
+  // loop through child nodes and add them
+  var cs = el.childNodes;
+  var n;
+  for (var i = 0; i < cs.length; i++) {
+    if (cs[i].nodeType == 1 && cs[i].className == "tab-page") {
+      this.addTabPage( cs[i] );
+    }
+  }
+}
+
+WebFXTabPane.prototype.classNameTag = "dynamic-tab-pane-control";
+
+WebFXTabPane.prototype.setSelectedIndex = function ( n ) {
+  if (this.selectedIndex != n) {
+    if (this.selectedIndex != null && this.pages[ this.selectedIndex ] != null )
+      this.pages[ this.selectedIndex ].hide();
+    this.selectedIndex = n;
+    this.pages[ this.selectedIndex ].show();
+
+    if ( this.useCookie )
+      WebFXTabPane.setCookie( "webfxtab_" + this.element.id, n );  // session cookie
+  }
+};
+
+WebFXTabPane.prototype.getSelectedIndex = function () {
+  return this.selectedIndex;
+};
+
+WebFXTabPane.prototype.addTabPage = function ( oElement ) {
+  if ( !hasSupport() ) return;
+
+  if ( oElement.tabPage == this )  // already added
+    return oElement.tabPage;
+
+  var n = this.pages.length;
+  var tp = this.pages[n] = new WebFXTabPage( oElement, this, n );
+  tp.tabPane = this;
+
+  // move the tab out of the box
+  this.tabRow.appendChild( tp.tab );
+
+  if ( n == this.selectedIndex )
+    tp.show();
+  else
+    tp.hide();
+
+  return tp;
+};
+
+WebFXTabPane.prototype.dispose = function () {
+  this.element.tabPane = null;
+  this.element = null;
+  this.tabRow = null;
+
+  for (var i = 0; i < this.pages.length; i++) {
+    this.pages[i].dispose();
+    this.pages[i] = null;
+  }
+  this.pages = null;
+};
+
+
+
+// Cookie handling
+WebFXTabPane.setCookie = function ( sName, sValue, nDays ) {
+  var expires = "";
+  if ( nDays ) {
+    var d = new Date();
+    d.setTime( d.getTime() + nDays * 24 * 60 * 60 * 1000 );
+    expires = "; expires=" + d.toGMTString();
+  }
+
+  document.cookie = sName + "=" + sValue + expires + "; path=/";
+};
+
+WebFXTabPane.getCookie = function (sName) {
+  var re = new RegExp( "(\;|^)[^;]*(" + sName + ")\=([^;]*)(;|$)" );
+  var res = re.exec( document.cookie );
+  return res != null ? res[3] : null;
+};
+
+WebFXTabPane.removeCookie = function ( name ) {
+  setCookie( name, "", -1 );
+};
+
+///////////////////////////////////////////////////////////////////////////////////
+// The constructor for tab pages. This one should not be used.
+// Use WebFXTabPage.addTabPage instead
+//
+// el : HTMLElement      The html element used to represent the tab pane
+// tabPane : WebFXTabPane  The parent tab pane
+// nindex :  Number      The index of the page in the parent pane page array
+//
+function WebFXTabPage( el, tabPane, nIndex ) {
+  if ( !hasSupport() || el == null ) return;
+
+  this.element = el;
+  this.element.tabPage = this;
+  this.index = nIndex;
+
+  var cs = el.childNodes;
+  for (var i = 0; i < cs.length; i++) {
+    if (cs[i].nodeType == 1 && cs[i].className == "tab") {
+      this.tab = cs[i];
+      break;
+    }
+  }
+
+  // insert a tag around content to support keyboard navigation
+
+   var a = document.createElement( "A" );
+  this.aElement = a;
+  a.href = "#";
+  a.onclick = function () { return false; };
+  while ( this.tab.hasChildNodes() )
+    a.appendChild( this.tab.firstChild );
+  this.tab.appendChild( a );
+
+
+  // hook up events, using DOM0
+  var oThis = this;
+  this.tab.onclick = function () { oThis.select(); };
+
+  this.tab.onmouseover = function () { WebFXTabPage.tabOver( oThis ); };
+  this.tab.onmouseout = function () { WebFXTabPage.tabOut( oThis ); };
+}
+
+WebFXTabPage.prototype.show = function () {
+  var el = this.tab;
+  var s = el.className + " selected";
+  s = s.replace(/ +/g, " ");
+  el.className = s;
+  this.element.style.display = "block";
+};
+
+WebFXTabPage.prototype.hide = function () {
+  var el = this.tab;
+  var s = el.className;
+  s = s.replace(/ selected/g, "");
+  el.className = s;
+  this.element.style.display = "none";
+
+  var ex2 = "tab" + this.index + "a";
+  var el2 = document.getElementById(ex2);
+  var ex3 = "tab" + this.index + "b";
+  var el3 = document.getElementById(ex3);
+  el2.className = "taboff";
+  el3.className = "bgtaboff";
+};
+
+WebFXTabPage.prototype.select = function () {
+  this.tabPane.setSelectedIndex( this.index );
+  var ex2 = "tab" + this.index + "a";
+  var el2 = document.getElementById(ex2);
+  var ex3 = "tab" + this.index + "b";
+  var el3 = document.getElementById(ex3);
+  el2.className = "tabon";
+  el3.className = "bgtabon";
+
+};
+
+WebFXTabPage.prototype.dispose = function () {
+  this.aElement.onclick = null;
+  this.aElement = null;
+  this.element.tabPage = null;
+  this.tab.onclick = null;
+  this.tab.onmouseover = null;
+  this.tab.onmouseout = null;
+  this.tab = null;
+  this.tabPane = null;
+  this.element = null;
+};
+
+WebFXTabPage.tabOver = function ( tabpage ) {
+  var el = tabpage.tab;
+  var s = el.className + " hover";
+  s = s.replace(/ +/g, " ");
+  el.className = s;
+};
+
+WebFXTabPage.tabOut = function ( tabpage ) {
+  var el = tabpage.tab;
+  var s = el.className;
+  s = s.replace(/ hover/g, "");
+  el.className = s;
+};
+
+
+// This function initializes all uninitialized tab panes and tab pages
+function setupAllTabs() {
+  if ( !hasSupport() ) return;
+
+  var all = document.getElementsByTagName( "*" );
+  var l = all.length;
+  var tabPaneRe = /tab\-pane/;
+  var tabPageRe = /tab\-page/;
+  var cn, el;
+  var parentTabPane;
+
+  for ( var i = 0; i < l; i++ ) {
+    el = all[i]
+    cn = el.className;
+
+    // no className
+    if ( cn == "" ) continue;
+
+    // uninitiated tab pane
+    if ( tabPaneRe.test( cn ) && !el.tabPane )
+      new WebFXTabPane( el );
+
+    // unitiated tab page wit a valid tab pane parent
+    else if ( tabPageRe.test( cn ) && !el.tabPage &&
+          tabPaneRe.test( el.parentNode.className ) ) {
+      el.parentNode.tabPane.addTabPage( el );
+    }
+  }
+}
+
+function disposeAllTabs() {
+  if ( !hasSupport() ) return;
+
+  var all = document.getElementsByTagName( "*" );
+  var l = all.length;
+  var tabPaneRe = /tab\-pane/;
+  var cn, el;
+  var tabPanes = [];
+
+  for ( var i = 0; i < l; i++ ) {
+    el = all[i]
+    cn = el.className;
+
+    // no className
+    if ( cn == "" ) continue;
+
+    // tab pane
+    if ( tabPaneRe.test( cn ) && el.tabPane )
+      tabPanes[tabPanes.length] = el.tabPane;
+  }
+
+  for (var i = tabPanes.length - 1; i >= 0; i--) {
+    tabPanes[i].dispose();
+    tabPanes[i] = null;
+  }
+}
+
+// initialization hook up
+
+// DOM2
+if ( typeof window.addEventListener != "undefined" )
+  window.addEventListener( "load", setupAllTabs, false );
+
+// IE
+else if ( typeof window.attachEvent != "undefined" ) {
+  window.attachEvent( "onload", setupAllTabs );
+  window.attachEvent( "onunload", disposeAllTabs );
+}
+
+else {
+  if ( window.onload != null ) {
+    var oldOnload = window.onload;
+    window.onload = function ( e ) {
+      oldOnload( e );
+      setupAllTabs();
+    };
+  }
+  else
+    window.onload = setupAllTabs;
+}
+
+function positionInfo(object) {
+
+  var p_elm = object;
+
+  this.getElementLeft = getElementLeft;
+  function getElementLeft() {
+    var x = 0;
+    var elm;
+    if(typeof(p_elm) == "object"){
+      elm = p_elm;
+    } else {
+      elm = document.getElementById(p_elm);
+    }
+    while (elm != null) {
+      x+= elm.offsetLeft;
+      elm = elm.offsetParent;
+    }
+    return parseInt(x);
+  }
+
+  this.getElementWidth = getElementWidth;
+  function getElementWidth(){
+    var elm;
+    if(typeof(p_elm) == "object"){
+      elm = p_elm;
+    } else {
+      elm = document.getElementById(p_elm);
+    }
+    return parseInt(elm.offsetWidth);
+  }
+
+  this.getElementRight = getElementRight;
+  function getElementRight(){
+    return getElementLeft(p_elm) + getElementWidth(p_elm);
+  }
+
+  this.getElementTop = getElementTop;
+  function getElementTop() {
+    var y = 0;
+    var elm;
+    if(typeof(p_elm) == "object"){
+      elm = p_elm;
+    } else {
+      elm = document.getElementById(p_elm);
+    }
+    while (elm != null) {
+      y+= elm.offsetTop;
+      elm = elm.offsetParent;
+    }
+    return parseInt(y);
+  }
+
+  this.getElementHeight = getElementHeight;
+  function getElementHeight(){
+    var elm;
+    if(typeof(p_elm) == "object"){
+      elm = p_elm;
+    } else {
+      elm = document.getElementById(p_elm);
+    }
+    return parseInt(elm.offsetHeight);
+  }
+
+  this.getElementBottom = getElementBottom;
+  function getElementBottom(){
+    return getElementTop(p_elm) + getElementHeight(p_elm);
+  }
+}
+
+</SCRIPT> 
+
+
+<style type="text/css" media="all">
+
+    .booktable{
+    font-family:arial,calibri;
+    font-size:11px;
+    display:block;
+    border:1px solid black;
+    background-color:#C0C0C1;
+    width:550px;
+        }
+
+    .bookcell{
+    font-family:arial,calibri;
+    text-align:left;
+    border:1px solid #CCCCCC;
+    background-color:#C0C0C1;
+    position:relative;
+        }
+
+    .bookcellr{
+    font-family:arial,calibri;
+    text-align:right;
+    border:1px solid #CCCCCC;
+    background-color:#C0C0C1;
+    position:relative;
+        }
+
+    th{
+    text-decoration: underline;}
+
+</style>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+function formatCurrency(num) {
+num = num.toString().replace(/\$|\,/g,'');
+if(isNaN(num))
+num = "0";
+sign = (num == (num = Math.abs(num)));
+num = Math.floor(num*100+0.50000000001);
+cents = num%100;
+num = Math.floor(num/100).toString();
+if(cents<10)
+cents = "0" + cents;
+for (var i = 0; i < Math.floor((num.length-(1+i))/3); i++)
+num = num.substring(0,num.length-(4*i+3))+','+
+num.substring(num.length-(4*i+3));
+return (((sign)?'':'-') + '$' + num + '.' + cents);
+}
+
+
+function Book_In_Progress(inDiv){
+
+  var my_element = document.getElementById(inDiv);
+  var my_html ="<IMG SRC='/wtlgifs/web_pg_roller.gif' width='20' HSPACE=0 VSPACE=0 BORDER=0/><b>Retreiving book information.</b>";
+  my_element.innerHTML=my_html;
+  my_element.style.display="block";
+}
+
+function emptyDiv(id)
+{
+
+ var element = document.getElementById(id);
+ if (!element) {
+ // alert("Bad id " + id +
+ //  "passed to bookService." +
+ //  "You need a div or span element " +
+ //  "with this id in your page.");
+  return;
+ }
+
+ element.innerHTML="";
+ element.style.display="none";
+
+
+}
+
+function bookService(id,url,parms,in_link) {
+
+ //setTimeout("Book_In_Progress(\"" + id +"\",1000)");
+
+  var req = false;
+  // For Safari, Firefox, and other non-MS browsers
+  if (window.XMLHttpRequest) {
+    try {
+      req = new XMLHttpRequest();
+    } catch (e) {
+      req = false;
+    }
+  } else if (window.ActiveXObject) {
+    // For Internet Explorer on Windows
+    try {
+      req = new ActiveXObject("Msxml2.XMLHTTP");
+    } catch (e) {
+      try {
+        req = new ActiveXObject("Microsoft.XMLHTTP");
+      } catch (e) {
+        req = false;
+      }
+    }
+  }
+ var element = document.getElementById(id);
+ if (!element) {
+  alert("Bad id " + id +
+   "passed to bookService." +
+   "You need a div or span element " +
+   "with this id in your page.");
+  return;
+ }
+
+
+  if (req) {
+    // Synchronous request, wait till we have it all
+    req.open("POST", url, false);
+    req.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+    req.send(parms);
+
+    //Determine if service request failed timeout or other
+    // if (req.responseText.search("User Login")>0||req.responseText.search("404 Not Found")>0)
+    // {
+    //    window.location="./twbkwbis.P_WWWLogin";
+    //    return;
+    // }
+
+        new_html ="There is no book information for this course currently listed at the Bookstore.";
+
+    if (req.readyState == 4) {
+        if (req.status != 200) {
+          null;
+          //alert("Error : Status "+req.status+" returned.");
+
+        }
+        else
+        {
+
+
+        try{
+
+              requiredxArr=req.responseXML.getElementsByTagName("req");
+              titleArr=req.responseXML.getElementsByTagName("title");
+              authorArr=req.responseXML.getElementsByTagName("author");
+              isbnArr=req.responseXML.getElementsByTagName("isbn");
+              editionArr=req.responseXML.getElementsByTagName("edition");
+              new_priceArr=req.responseXML.getElementsByTagName("new");
+              usedArr =req.responseXML.getElementsByTagName("used");
+              imageArr =req.responseXML.getElementsByTagName("image");
+              publisherArr =req.responseXML.getElementsByTagName("publisher");
+
+
+         if (titleArr.length == 0){
+         //no data
+         new_html ="There is no book information for this course currently listed at the Bookstore.";
+
+          }
+          else
+          {
+         //create header
+         new_html="<table class='booktable'><tr><th align='left'>Title</th><th>Author</th><th>ISBN</th><th>New Price</th><th>Used Price</th><td align='right'><a name='closeme' href='#closeme' class='mytable' onclick='emptyDiv(\"" + String(id) + "\")'>Close</a></td></tr>";
+
+           }
+           var used_total =0;
+           var new_total =0;
+           var type_used_total =0;
+           var type_new_total =0;
+           var curr_type = "";
+           var has_books = "no";
+           var has_types ="N";
+           var new_price =0;
+           var used_price =0;
+           var l_isbn ="";
+           var l_author ="";
+           var l_required ="";
+           var l_edition ="";
+           var l_publisher ="";
+
+         for ( var i=0; i<titleArr.length; ++i ){
+
+
+                //Check for null nodes and set defaults
+                if (new_priceArr[i].hasChildNodes())
+                {
+                  new_price = Number(new_priceArr[i].childNodes[0].nodeValue);
+                }
+                else
+                {
+                  new_price="";
+                }
+
+                if (usedArr[i].hasChildNodes())
+                {
+                  used_price = Number(usedArr[i].childNodes[0].nodeValue);
+                }
+                else
+                {
+                  used_price="";
+                }
+
+                if (editionArr[i].hasChildNodes())
+                {
+                  l_edition = editionArr[i].childNodes[0].nodeValue;
+                }
+                else
+                {
+                  l_edition="";
+                }
+
+                if (publisherArr[i].hasChildNodes())
+                {
+                  l_publisher = publisherArr[i].childNodes[0].nodeValue;
+                }
+                else
+                {
+                  l_publisher="";
+                }
+
+                if (isbnArr[i].hasChildNodes())
+                {
+                  l_isbn = isbnArr[i].childNodes[0].nodeValue;
+                }
+                else
+                {
+                  l_isbn=l_publisher + " 20"+ l_edition;
+                }
+
+                if (authorArr[i].hasChildNodes())
+                {
+                  l_author = authorArr[i].childNodes[0].nodeValue;
+                }
+                else
+                {
+                  l_author="";
+                }
+
+                if (requiredxArr[i].hasChildNodes())
+                {
+                  l_required = requiredxArr[i].childNodes[0].nodeValue;
+                }
+                else
+                {
+                  l_required="";
+                }
+
+
+              if (curr_type=="")
+              {curr_type=l_required;}
+
+              //Subtotals
+              if (curr_type==l_required)
+              {
+                type_new_total = type_new_total + Number(new_price);
+                type_used_total = type_used_total + Number(used_price);
+              }
+              else
+              {
+                has_types="Y";
+                new_html=new_html + "<tr><th></th><td colspan='2' align='right'><i>"+ curr_type  +" Sub Total:</i></td>";
+                new_html=new_html + "<td class='bookcellr'><b>" + formatCurrency(type_new_total) + "</b></td>";
+                new_html=new_html + "<td class='bookcellr'><b>" + formatCurrency(type_used_total) + "</b></td></tr><tr></tr><tr></tr>";
+                curr_type=l_required;
+                type_used_total =Number(used_price);
+                type_new_total = Number(new_price);
+              }
+
+              has_books = "yes";
+              new_html=new_html + "<tr>";
+              new_html=new_html + "<td class='bookcell'>" + titleArr[i].childNodes[0].nodeValue + "</td>";
+              new_html=new_html + "<td class='bookcell'>" + l_author + "</td>";
+              new_html=new_html + "<td class='bookcell'>" + l_isbn + "</td>";
+              new_html=new_html + "<td class='bookcellr'>" + formatCurrency(new_price) + "</td>";
+              new_html=new_html + "<td class='bookcellr'>" + formatCurrency(used_price) + "</td>";
+              new_html=new_html + "<td class='bookcellr'>" + l_required + "</td>";
+              new_html=new_html + "</tr>";
+
+              new_total = new_total + Number(new_price);
+              used_total = used_total + Number(used_price);
+
+          }
+
+
+           if (has_types=="Y"){
+                new_html=new_html + "<tr><th></th><td colspan='2' align='right'><i>"+ curr_type  +" Sub Total:</i></td>";
+                new_html=new_html + "<td class='bookcellr'><b>" + formatCurrency(type_new_total) + "</b></td>";
+                new_html=new_html + "<td class='bookcellr'><b>" + formatCurrency(type_used_total) + "</b></td></tr><tr></tr><tr></tr>";
+
+           }
+
+           if (has_books=="yes"){
+           new_html=new_html + "<tr><td><a target='_blank' href=" + in_link +">Purchase Books</a></td><th></th><td align='right'><b>Grand Total:</b></td>";
+           new_html=new_html + "<td class='bookcellr'><b>" + formatCurrency(new_total) + "</b></td>";
+           new_html=new_html + "<td></td>";
+           new_html=new_html + "</table>";
+           }
+
+          }
+
+          catch (e)
+          {
+          null;
+          }
+
+        req.close;
+        }}
+
+      element.innerHTML = new_html;
+      element.style.display="block";
+
+
+      if (element.innerHTML==new_html){
+      var div = document.getElementById("CourseDetailx");
+      h = div.scrollHeight;
+      div.scrollTop = h;
+//      alert(element.innerHTML);
+
+      }
+
+
+  } else {
+    element.innerHTML =
+   "Sorry, your browser does not support " +
+      "XMLHTTPRequest objects. This page requires " +
+      "Internet Explorer 5 or better for Windows, " +
+      "or Firefox for any system, or Safari. Other " +
+      "compatible browsers may also exist.";
+  }
+}
+
+
+
+function getBooks(inCRN,inTerm){
+
+  var element = document.getElementById('books' + inCRN);
+
+  //convert inTerm to bookstore term
+  var lTermiden=inTerm.substring(0,1);
+  var lTerm="";
+  var lTerm2="";
+
+  //CE Term
+  if(lTermiden=="0"){
+    lTermiden=inTerm.substring(5,6);
+    switch (lTermiden){
+      case "1":
+        lTerm="SUMMER " + inTerm.substring(3,5);
+        lTerm2="SUMMER+" + inTerm.substring(3,5);
+
+        break;
+    }
+
+  }
+  else
+  //normal term
+  {
+    lTermiden= inTerm.substring(4,5);
+
+    switch (lTermiden){
+      case "0":
+        lTerm="SUMMER " + inTerm.substring(2,4);
+        lTerm2="SUMMER+" + inTerm.substring(2,4);
+        break;
+      case "1":
+        lTerm="FALL " +  inTerm.substring(2,4);
+        lTerm2="FALL+" +  inTerm.substring(2,4);
+        break;
+      case "2":
+      // CR026546 - changed WINTER to SPRING on following two lines
+        lTerm="SPRING " + (Number(inTerm.substring(2,4))+1);
+        lTerm2="SPRING+" + (Number(inTerm.substring(2,4))+1);
+        break;
+    }
+
+  }
+
+  Book_In_Progress("books"+inCRN);
+  var x="sto_id=144&term=" + lTerm + "&cid=" +inCRN;
+  var in_link="http://insite.browntextbook.com/SelectCourses.aspx?src=2&TYPE=2&stoid=144&trm=" + lTerm2 + "&cid=" + inCRN;
+  bookService('books' + inCRN,"../browntextbook/xmlcoursematerials.asmx/GetCourseMaterials?",x,in_link);
+  //var fstring= "bookService(\"" + "books" + inCRN + "\",\"../browntextbook/xmlcoursematerials.asmx/GetCourseMaterials?\",\"" + x + "\",\"" + in_link + "\")"
+  //setTimeout(fstring,500);
+      var div = document.getElementById("CourseDetailx");
+      h = div.scrollHeight;
+      div.scrollTop =0;
+      div.scrollTop = h;
+
+}
+
+
+
+</SCRIPT>
+
+
+
+<style type="text/css" media="all">
+
+  .Search {
+  font-family:arial,calibri;
+    font-size:12px;
+  position:relative;
+  width:185px;
+  text-align:left;
+  float:left;
+  left:10px;
+  top:15px;
+  z-index:1;
+    }
+
+  .Cart{
+  font-family:arial,calibri;;
+  font-size:11px;
+  text-align:left;
+  display:block;
+  position:relative;
+  top:15px;
+    }
+
+  .Schedule {
+  font-family:arial,calibri;
+  position:relative;
+  display:block;
+  left:10px;
+    }
+
+  .mytable{
+  font-family:arial,calibri;
+  font-size:11px;
+  }
+
+  .mytable2{
+  font-family:arial,calibri;
+  font-size:11px;
+  padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-spacing: 0;
+  border-collapse: collapse;
+   }
+
+  .mytable3{
+  font-family:arial,calibri;
+  font-size:11px;
+    margin: 0px 0px 0px 0px;
+  height:20px;
+  }
+
+  .mycell2{
+  padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  height:1px;
+  font-size:11px
+  }
+
+  .mycell3{
+  border:1px solid #CCCCCC;
+  margin: 0px 0px 0px 0px;
+  border-collapse: collapse;
+  border-spacing: 0;
+  }
+
+  .mycell{
+    position:relative;
+    font-family: arial,calibri;
+  height: 5px;
+  }
+
+  .dbutton{
+  height:18px;
+  width:16px;
+  border-bottom: 1px solid gray;
+  border-right: 1px solid gray;
+  border-top: 1px solid gray;
+  }
+
+  .resultstable{
+  font-family:arial,calibri;
+  font-size:12px;
+  padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .resultsrow{
+  font-family:arial,calibri;
+  font-size:12px;
+  padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  }
+
+  .cdescrip{
+  font-family:arial,calibri;
+  font-size:12px;
+  display:block;
+  position:relative;
+  left:20px;
+  width:500px;
+  margin-bottom:5px;
+  }
+
+
+  .Top {
+  font-family:arial,calibri;
+  position:absolute;
+    }
+
+    .Bottom {
+    font-family:arial,calibri;
+    position:absolute;
+    left:170px;
+        }
+
+   .searchbuttons{
+   font-family:arial,calibri;
+   font-size:10px;
+   }
+
+
+    .Button1 {
+    position:absolute;
+    top:14px;
+    left:141px;
+        }
+
+    .Button2 {
+    position:absolute;
+    top:17px;
+    left:141px;
+        }
+
+    .Term {
+    position:absolute;
+    top:5px;
+        }
+
+    .SubjectContainer {
+    position:absolute;
+    top:45px;
+        }
+
+    .Title {
+    position:absolute;
+    top:85px;
+        }
+
+    .Instructor {
+    position:absolute;
+    top:120px;
+        }
+
+    .Course {
+    position:absolute;
+    top:168px;
+        }
+
+   .Attributes {
+    position:absolute;
+    top:203px;
+      }
+
+   .IndependentStudy {
+    position:absolute;
+    top:245px;
+    left:2px;
+      }
+
+    .AdvancedLink {
+    position:absolute;
+    top:270px;
+    left:5px;
+      }
+
+    .SearchButtonRow {
+    position:absolute;
+    top:330px;
+    left:-4px;
+      }
+
+    .HourContainer {
+    position:absolute;
+    top:275px;
+    z-index:100
+      }
+
+    .Description {
+    position:absolute;
+    top:315px;
+      }
+
+    .CreditValue {
+    position:absolute;
+    top:355px;
+    left:0px;
+      }
+
+    .Department {
+    position:absolute;
+    top:395px;
+    left:0px;
+      }
+
+
+    .Results{
+    font-family:arial,calibri;
+    text-align:left;
+    margin-left: 1px;
+    overflow:auto;
+    height:100%
+        }
+
+    .CourseDetail{
+    }
+
+    .CourseDetailx{
+    height:100%;
+    overflow:auto;
+    }
+
+    .CartContainerX{
+    height:50px;
+    }
+
+    .CartContainer{
+    }
+
+    .GridContainer{
+    font-family:arial,calibri;
+    font-size:12px;
+    text-align:left;
+    display:block;
+    position:relative;
+        }
+
+    .MiniGridContainer{
+    font-family:arial,calibri;
+    font-size:12px;
+    text-align:left;
+    display:block;
+    position:relative;
+    height:390px;
+        }
+
+    .MiniDayHeader {
+    font-family:arial,calibri;
+    position:relative;
+    left:25px;
+    }
+
+    .MiniGridBlock {
+    font-family:arial,calibri;
+    top:19px;
+    }
+
+    .MiniGridBlock2 {
+    font-family:arial,calibri;
+    }
+
+   .MiniHours {
+    font-family:arial,calibri;
+        position:relative;
+    top:9px;
+        }
+
+
+    .MiniNameGridCell {
+        position:relative;
+        font-family: arial,calibri;
+    font-size:2px;
+        color: inherit;
+        background-color: inherit;
+        border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+        height:24px;
+        width:25px;
+        cursor:hand;
+    display:block;
+    overflow:visible;
+        }
+
+    #MiniNameCells {
+        position:relative;
+        font-family: arial,calibri;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-size:10px;
+    height:288px;
+        voice-family: "\"}\"";
+        voice-family:inherit;
+        left: 59px;
+        }
+        html>body #WeekDay {
+            left: 59px;
+        }
+
+    .MiniNameDayLabel {
+        position:relative;
+    float:left;
+    font-family:arial,calibri;
+        padding: 0px 0px 0px 0px;
+        font-size: 10px;
+        line-height: 18px;
+    text-align: center;
+        font-size:11px;
+        border-top: 1px solid #C2C2C2;
+        border-bottom:1px solid #C2C2C2;
+    border-right:1px solid #C2C2C2;
+        width: 25px;
+        voice-family: "\"}\"";
+        voice-family:inherit;
+        height:17px;
+        }
+
+
+    .MiniHourLabelName {
+    font-family:arial,calibri;
+        position:absolute;
+        font-size:11px;
+    border-top:1px solid gray;
+        }
+
+
+    .MiniGridCell {
+    font-family:arial,calibri;
+        position:absolute;
+        padding: 0px 0px 0px 0px;
+        font-size:11px;
+    font-weight:bold;
+        top: 0px;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom:1px solid black;
+    border-left:1px solid black;
+    width:25px;
+    }
+</style>
+<SCRIPT LANGUAGE="JavaScript">
+
+var mouseOver=0;
+
+function getWinSize(in_what){
+  var iWidth = 0, iHeight = 0;
+  if (document.documentElement && document.documentElement.clientHeight){
+       iWidth = parseInt(window.innerWidth,10);
+       iHeight = parseInt(window.innerHeight,10);
+  }
+  else if (document.body){
+       iWidth = parseInt(document.body.offsetWidth,10);
+       iHeight = parseInt(document.body.offsetHeight,10);
+  }
+
+  //return {width:iWidth, height:iHeight};
+
+   if (in_what=="H"){
+   return(iHeight);
+   }
+   else
+   {
+   return(iWidth);
+   }
+}
+
+function resize_divs() {
+var oWinSize = getWinSize("H");
+var oWinWidth = getWinSize("W");
+
+if (document.getElementById("Results"))
+{
+  if (oWinSize-320>0){
+    document.getElementById("Results").style.height = oWinSize-320;
+    }
+}
+if (document.getElementById("CourseDetailx"))
+{
+  if (oWinSize-320>0){
+  document.getElementById("CourseDetailx").style.height = oWinSize-320;
+  }
+
+}
+
+
+if (document.getElementById("spacerdiv"))
+
+  {
+      document.getElementById("spacerdiv").style.height = oWinSize-316;
+
+  }
+
+
+//if (document.getElementById("CartContainer"))
+//{
+//  if (oWinSize-284>0){
+//  document.getElementById("CartContainer").style.height = oWinSize-284;
+//  }
+
+//  if (oWinWidth>900 && oWinWidth<1100)
+//  {
+//  document.getElementById("CartContainer").style.width = oWinWidth-350;
+   //alert(oWinWidth);
+//   }
+
+//}
+
+//if (document.getElementById("MiniGridContainer"))
+//{
+//  if (oWinSize-525>0){
+//  document.getElementById("MiniGridContainer").style.height = oWinSize-525;
+//  }
+//}
+
+if (document.getElementById("SharingContainer"))
+{
+  if (oWinSize-284>0){
+  document.getElementById("SharingContainer").style.height = oWinSize-284;
+  }
+}
+
+
+
+}
+
+
+function createCookie(name,value,days) {
+  if (days) {
+        var date = new Date();
+        date.setTime(date.getTime()+(days*24*60*60*1000));
+        var expires = "; expires="+date.toGMTString();
+    }
+    else var expires = "";
+    document.cookie = name+"="+value+expires+"; path=/";
+}
+
+function readCookie(name) {
+    var nameEQ = name + "=";
+    var ca = document.cookie.split(";");
+    for(var i=0;i < ca.length;i++) {
+        var c = ca[i];
+        while (c.charAt(0)==" ") c = c.substring(1,c.length);
+        if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+    }
+    return null;
+}
+
+
+function setResults2(pages,results){
+
+ current_page=readCookie("L_PAGE593365");
+ // alert("current page is:" + current_page);
+
+ next_page=parseInt(current_page,10) + 1;
+ prev_page=parseInt(current_page,10) - 1;
+
+
+ if(results<26){
+   cpage_string= '<b>Search Results: ' + results + ' classes found</b>';
+   results_count=results;
+
+
+ }
+ else{
+
+  if(current_page==pages)
+   {
+    cpage_string='<b>Search Results: ' + ((prev_page)*25+1) + '-' + results + ' of ' + results + ' classes found';
+     if(results==500)
+    {
+     cpage_string= cpage_string + '(Max. 500 results allowed)<br></b>';
+    }
+    else
+    {
+     cpage_string= cpage_string + '<br></b>';
+    }
+    results_count= parseInt(results,10)-(parseInt(prev_page,10)*25)+1;
+   }
+  else
+  {
+    cpage_string='<b>Search Results: ' + ((prev_page)*25+1) + '-' +((prev_page)*25+25) + ' of ' + results + ' classes found';
+      if(results==500)
+    {
+     cpage_string= cpage_string + '(Max. 500 results allowed)<br></b>';
+    }
+    else
+    {
+     cpage_string= cpage_string + '<br></b>';
+    }
+
+    results_count=25;
+  }
+
+ }
+
+ var results_string;
+
+ for(i=1; i<=pages; i++)
+
+    {
+        if(i==1){
+           results_string ="";
+           //cpage_string;
+
+        }
+
+        if (pages>1){
+            if (i==current_page){
+              results_string=results_string + '<IMG SRC="/wtlgifs/web_transparent.gif"  HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10><b>' + i + '</b>';
+            }
+            else{
+              results_string=results_string +
+              '<IMG SRC="/wtlgifs/web_transparent.gif"  HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10>' +
+              '<a onClick=setPageCookie(' + i + ') class=SearchResults href=./hwwkcsearch.P_Main?IN_METHOD=I>' + i  + '</a>';
+          }
+        }
+   }
+
+ if (current_page>1)
+ {
+   results_string = results_string +
+   '<IMG SRC="/wtlgifs/web_transparent.gif"  HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10>' +
+    '<a onClick=setPageCookie(' + prev_page + ') href=./hwwkcsearch.P_Main?IN_METHOD=I>Prev</a>';
+
+ }
+
+  if (current_page<pages && pages>1)
+ {
+   results_string = results_string +
+   '<IMG SRC="/wtlgifs/web_transparent.gif"  HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=3 WIDTH=10>' +
+   '<a onClick=setPageCookie(' + next_page + ') href=./hwwkcsearch.P_Main?IN_METHOD=I>Next</a>';
+
+ }
+
+    //results_string =  results_string + '</b>';
+    document.getElementById("SearchResults2").innerHTML = cpage_string + results_string;;
+    document.getElementById("SearchResults").innerHTML = cpage_string + results_string;
+}
+
+
+function getSelected(opt) {
+  var selected = new Array();
+  var index = 0;
+  for (var intLoop = 0; intLoop < opt.length; intLoop++) {
+      if ((opt[intLoop].selected) ||
+          (opt[intLoop].checked)) {
+        index = selected.length;
+        selected[index] = new Object;
+        selected[index].value = opt[intLoop].value;
+        selected[index].index = intLoop;
+      }
+  }
+  return selected;
+  }
+
+
+function outputSelected(opt,upd,in_del,in_which) {
+  var sel = getSelected(opt);
+  var strSel = "";
+    for (var item in sel)
+      strSel += sel[item].value + in_del;
+  upd.value = strSel;
+  }
+
+
+function f_set_select_by_list(in_list,in_select)
+{
+  var outArray = new Array();
+  var strList = in_list + ",";
+  var strSearch;
+  var intSearch;
+  var index = 0;
+  for (var intLoop = 0; intLoop < in_select.length; intLoop++)
+  {
+    strSearch = in_select[intLoop].value + ",";
+    intSearch = strList.search(strSearch);
+    index = outArray.length;
+    outArray[index] = new Object;
+    outArray[index].value = in_select[intLoop].value;
+    if (intSearch > -1)
+    {
+      in_select[intLoop].selected = true;
+    }
+    else
+    {
+      in_select[intLoop].selected = false;
+    }
+  }
+}
+
+
+function f_go_drop(in_div_layer)
+{
+
+var myDiv = document.getElementById(in_div_layer);
+
+        if (in_div_layer=='div_IN_SUBJ')
+    {
+
+        document.getElementById('ROW1').style.zIndex=200;
+        document.getElementById(in_div_layer).style.visibility='visible';
+        document.getElementById(in_div_layer).style.height='227px';
+        document.getElementById('DBUT1').src='/wtlgifs/uarrow5.bmp';
+        document.getElementById('DBUT1').title='Click to collapse list, hold Ctrl for multiple select';
+
+        document.getElementById('div_IN_HOUR').style.height='0px';
+        document.getElementById('div_IN_HOUR').style.visibility='hidden';
+        document.getElementById('DBUT2').src='/wtlgifs/darrow5.bmp';
+        document.getElementById('DBUT2').title='Click to display list, hold Ctrl for multiple select';
+
+    }
+    else
+    {
+        document.getElementById(in_div_layer).style.visibility='visible';
+        document.getElementById(in_div_layer).style.height='175px';
+        document.getElementById('DBUT2').src='/wtlgifs/uarrow5.bmp';
+        document.getElementById('DBUT2').title='Click to collapse list, hold Ctrl for multiple select';
+
+        document.getElementById('ROW1').style.zIndex=0;
+        document.getElementById('div_IN_SUBJ').style.height='0px';
+        document.getElementById('div_IN_SUBJ').style.visibility='hidden';
+        document.getElementById('DBUT1').src='/wtlgifs/darrow5.bmp';
+        document.getElementById('DBUT1').title='Click to display list, hold Ctrl for multiple select';
+
+    }
+  }
+
+function f_back_drop(in_div_layer)
+{
+
+  if (in_div_layer=='div_IN_SUBJ')
+  {
+    document.getElementById('ROW1').style.zIndex=0;
+    document.getElementById(in_div_layer).style.height='0px';
+    document.getElementById(in_div_layer).style.visibility='hidden';
+    document.getElementById('DBUT1').src='/wtlgifs/darrow5.bmp';
+    document.getElementById('DBUT1').title='Click to display list, hold Ctrl for multiple select';
+
+  }
+  else
+  {
+    document.getElementById(in_div_layer).style.height='0px';
+    document.getElementById(in_div_layer).style.visibility='hidden';
+    document.getElementById('DBUT2').src='/wtlgifs/darrow5.bmp';
+    document.getElementById('DBUT2').title='Click to display list, hold Ctrl for multiple select';
+
+  }
+}
+
+   var toggle_button_flag=1;
+
+
+function f_toggle_button(in_btn,in_div_layer)
+{
+    if (document.getElementById(in_div_layer).style.visibility=='visible')
+  {
+    f_back_drop(in_div_layer);
+  }
+  else
+  {
+    f_go_drop(in_div_layer);
+  }
+}
+
+
+function setPageCookie(in_value)
+{
+   createCookie("L_PAGE593365",in_value,"1");
+   createCookie("SEARCH","#SearchResults","1");
+
+}
+
+
+function f_term_change()
+{
+ document.getElementById("myform").submit();
+ createCookie("SEARCH","N","1");
+}
+
+
+function clientSideInclude(id, url,parms) {
+  var req = false;
+  // For Safari, Firefox, and other non-MS browsers
+  if (window.XMLHttpRequest) {
+    try {
+      req = new XMLHttpRequest();
+    } catch (e) {
+      req = false;
+    }
+  } else if (window.ActiveXObject) {
+    // For Internet Explorer on Windows
+    try {
+      req = new ActiveXObject("Msxml2.XMLHTTP");
+    } catch (e) {
+      try {
+        req = new ActiveXObject("Microsoft.XMLHTTP");
+      } catch (e) {
+        req = false;
+      }
+    }
+  }
+ var element = document.getElementById(id);
+ if (!element) {
+ // alert("Bad id " + id +
+ //  "passed to clientSideInclude." +
+ //  "You need a div or span element " +
+ //  "with this id in your page.");
+  return;
+ }
+  if (req) {
+    // Synchronous request, wait till we have it all
+    req.open("POST", url, false);
+    req.send(parms);
+
+    //Determine if service request failed timeout or other
+     if (req.responseText.search("was not found on this server")>0||req.responseText.search("404 Not Found")>0)
+     {
+        //window.location="./twbkwbis.P_GenMenu?name=bmenu.P_MainMnu";
+        window.location="./hwwkcsearch.P_Main?IN_METHOD=I"
+        return;
+     }
+
+     element.innerHTML = req.responseText;
+
+  } else {
+    element.innerHTML =
+   "Sorry, your browser does not support " +
+      "XMLHTTPRequest objects. This page requires " +
+      "Internet Explorer 5 or better for Windows, " +
+      "or Firefox for any system, or Safari. Other " +
+      "compatible browsers may also exist.";
+  }
+}
+
+
+document.getElementsByClassName = function(cl) {
+var retnode = [];
+var myclass = new RegExp("\\b"+cl+"\\b");
+var elem = this.getElementsByTagName("*");
+for (var i = 0; i < elem.length; i++) {
+var classes = elem[i].className;
+if (myclass.test(classes)) retnode.push(elem[i]);
+}
+return retnode;
+};
+
+
+function Show_Detail(in_term,in_crn,in_id){
+  //window.scrollTo(0,0);
+  var x="IN_TERM=" + in_term + "&IN_CRN=" + in_crn  + "&IN_FROM=" + in_id;
+  clientSideInclude("CourseDetail","./hwwkcsearch.P_Detail",x)
+  var my_page = document.getElementById("tabPage1");
+  var elements = document.getElementsByClassName("resultsrow");
+  var leng =elements.length;
+  var el1
+
+  for (var i1 =0; i1 < leng; i1++){
+    el1= elements[i1];
+    el1.style.background="white";
+  }
+
+if (in_id!="NONE") {
+  var mycolor = document.getElementById(in_id).style.backgroundColor
+  document.getElementById(in_id).style.backgroundColor="yellow";
+}
+
+
+  if ( !hasSupport() ) return;
+  var all = document.getElementsByTagName( "*" );
+  var l = all.length;
+  var tabPaneRe = /tab\-pane/;
+  var tabPageRe = /tab\-page/;
+  var cn, el;
+  var parentTabPane;
+
+  for ( var i = 0; i < l; i++ ) {
+    el = all[i]
+    cn = el.className;
+    // no className
+    if ( cn == "" ) continue;
+
+    if (tabPageRe.test( cn )&&el.tabPage)
+      {
+
+        if (el.tabPage.index==1)
+        {
+            el.tabPage.select();
+         }
+    }
+  }
+
+if (in_id!="NONE") {
+
+    document.getElementById(in_id).style.backgroundColor="yellow";
+}
+
+    resize_divs();
+    document.cookie = "LC_DETAIL="+ in_crn;
+
+
+}
+
+function Load_Detail(in_term,in_crn){
+  //window.scrollTo(0,0);
+  var x="IN_TERM=" + in_term + "&IN_CRN=" + in_crn  + "&IN_FROM=NONE";
+  clientSideInclude("CourseDetail","./hwwkcsearch.P_Detail",x)
+  var my_page = document.getElementById("tabPage1");
+  var elements = document.getElementsByClassName("resultsrow");
+  var leng =elements.length;
+  var el1
+
+  for (var i1 =0; i1 < leng; i1++){
+    el1= elements[i1];
+    el1.style.background="white";
+  }
+
+
+    resize_divs();
+}
+
+
+
+function Show_Search(){
+  Show_Tab(0);
+}
+
+function Show_Cart(){
+  Show_Tab(2);
+}
+
+function Show_Sharing(){
+  Show_Tab(3);
+}
+
+
+function Show_Tab(in_page){
+
+  if ( !hasSupport() ) return;
+
+  var all = document.getElementsByTagName( "*" );
+  var l = all.length;
+  var tabPaneRe = /tab\-pane/;
+  var tabPageRe = /tab\-page/;
+  var cn, el;
+  var parentTabPane;
+
+  for ( var i = 0; i < l; i++ ) {
+    el = all[i]
+    cn = el.className;
+    // no className
+    if ( cn == "" ) continue;
+
+    if (tabPageRe.test( cn )&&el.tabPage)
+    {
+
+      if (el.tabPage.index==in_page)
+      {
+
+          el.tabPage.select();
+        }
+    }
+  }
+}
+
+
+
+function changeColor(in_id,in_color){
+  var element=document.getElementById(in_id);
+  if (element.style.backgroundColor!="yellow")
+   {
+    element.style.backgroundColor=in_color;
+   }
+}
+
+function checkParms()
+{
+  createCookie("SEARCH","#SearchResults","1");
+  createCookie("L_PAGE","1","1");
+}
+
+
+function AdvancedToggle(in_tog){
+
+
+  if (in_tog=="on")
+  {
+
+    createCookie("lc_advanced","on");
+    document.getElementById("advanced").style.display="block";
+    document.getElementById("AdvancedLink").style.top="440";
+    document.getElementById("SearchButtonRow").style.top="460";
+    document.getElementById("AdvancedLink").innerHTML="<table class='mytable2'><tr><td class='mycell2'><a href='#' onclick='AdvancedToggle(\"off\");' title='Click for basic search'>Basic Search</a></td></tr></table>";
+
+  }
+
+  else
+
+  {
+
+    createCookie("lc_advanced","off");
+  //Clear Advanced Parameters
+    document.getElementById("IN_HOUR").value="";
+    document.getElementById("IN_HOUR_multi").value="";
+    document.getElementById("IN_DESCRIPTION").value="";
+ // document.getElementById("IN_INDP").checked=false;
+    document.getElementById("IN_CREDIT").value="ALL";
+    document.getElementById("IN_DEPT").value="ALL";
+
+  //collapse div
+    document.getElementById("advanced").style.display="none";
+    document.getElementById("AdvancedLink").style.top="270";
+    document.getElementById("SearchButtonRow").style.top="330";
+    document.getElementById("AdvancedLink").innerHTML="<table class='mytable2'><tr><td class='mycell2'><a href='#' onclick='AdvancedToggle(\"on\");' title='Click for expanded search'>Expanded Search</a><br>(Search by meeting hours, department, or keyword in course description)</td></tr> </table>";
+
+
+  }
+
+
+}
+
+function cpPopUp()
+{
+
+  //open popup as blank page
+  popup = window.open("","popupx","height=450,width=500,scrollbars=yes,resizable=yes");
+
+  //wait for window to open
+  do {  }
+  while(!popup);
+
+  //create content CR024650: change Diversity Perspectives to Diverse Perspectives in Liberal Learning
+  var content ="<p style=\"font-family:arial\"><b>First-year seminars</b> are taught by Brown faculty on a wide range of topics. Each seminar is limited to 20 first-year students only.</p>";
+  content= content + "<p style=\"font-family:arial\"><b>Sophomore seminars</b> are taught by Brown faculty on a wide range of topics. Each seminar is limited to 20 sophomore students only.</p>";
+  content= content + "<p style=\"font-family:arial\"><b>Diverse Perspectives in Liberal Learning courses</b> focus on groups that are underrepresented in traditional approaches to knowledge and learning.</p>";
+  content= content + "<p style=\"font-family:arial\"><b>Liberal Learning courses</b> introduce students to the many ways of thinking and of approaching knowledge that comprise a liberal education.</p>"
+  content= content + "<p style=\"font-family:arial\"><b>Writing Designated courses</b> include at least two writing assignments and require students to draft and revise their papers based on feedback about their writing.</p>";
+
+  // change the content if it hasnt been changed already
+  if (popup.document.body.innerHTML!=content)
+  {
+    popup.document.body.innerHTML=content;
+  }
+
+}
+
+function dpPopUp()
+{
+
+  //open popup as blank page
+  popup = window.open("","popupx","height=450,width=500,scrollbars=yes,resizable=yes");
+
+  //wait for window to open
+  do {  }
+  while(!popup);
+
+  //create content
+  var content ="<p style=\"font-family:arial\">Use the Department search to find courses sponsored by a particular department that may have distinct and multiple Subject codes. For instance, in the Subject(s) field leave the \"ALL\" populated and in Department if Slavic Languages is selected all subjects (such as SLAV, RUSS, CZCH, etc.) will be returned</p>";
+
+  // change the content if it hasnt been changed already
+  if (popup.document.body.innerHTML!=content)
+  {
+    popup.document.body.innerHTML=content;
+  }
+
+}
+
+
+function check_advanced()
+{
+
+if (readCookie("lc_advanced")=="on")
+  {
+    AdvancedToggle("on");
+  }
+
+
+}
+
+function In_Progress(){
+
+  var my_element = document.getElementById("ScheduleX");
+  var my_html ="<IMG style='position:absolute;left:230px;top:130px;' SRC='/wtlgifs/web_pg_roller.gif' HSPACE=0 VSPACE=0 BORDER=0/><b style='position:absolute;left:150px;top:180px;width:300px;' >Please wait while your cart is updated.</b>";
+  my_element.innerHTML=my_html;
+
+  var my_element = document.getElementById("Cart");
+  var my_html ="";
+  my_element.innerHTML=my_html;
+
+}
+
+
+function Add_To_Cart(in_term,in_crn){
+  In_Progress();
+  var x="IN_TERM=" + in_term + "&IN_CRN=" + in_crn + "&IN_ACTION=ADD"
+  clientSideInclude("ScheduleX","./hwwkcsearch.P_Grid_Service",x)
+  var x="IN_TERM=" + in_term;
+  clientSideInclude("Cart","./hwwkcsearch.P_Cart_Service?",x);
+  clientSideInclude("Cart_Buttons","./hwwkcsearch.P_Cart_Button_Service?",x);
+ // var x="IN_TERM=" + in_term + "&IN_CRN="
+ // clientSideInclude("MiniGridContainer","./hwwkcsearch.P_Mini_Grid_Service",x)
+  var element2 = "";
+  var x="IN_TERM=" + in_term + "&IN_ACTION=I&IN_CRN_STRING=" + element2.value;
+  clientSideInclude("SharingContainer","./hwwkcsearch.P_Load_Cart",x);
+
+
+
+  //change button to in cart
+  var element = document.getElementById("ABDIV" + in_crn);
+  element.innerHTML="";
+  element.innerHTML="<div id='" +"ABDIV" + in_crn + "' class='mytable' style='width:80px;background-color:#CCCCCC;border:1px solid gray;height:15px;'><center><B>In Cart</b></center></div>";
+  Show_Cart();
+  Load_Detail(in_term,in_crn);
+
+
+}
+
+function Render_Cart(in_term){
+
+  In_Progress();
+ var x="IN_TERM=" + in_term + "&IN_ACTION=S"
+ clientSideInclude("ScheduleX","./hwwkcsearch.P_Grid_Service",x)
+ var x="IN_TERM=" + in_term;
+ clientSideInclude("Cart","./hwwkcsearch.P_Cart_Service?",x);
+ clientSideInclude("Cart_Buttons","./hwwkcsearch.P_Cart_Button_Service?",x);
+ //  var x="IN_TERM=" + in_term + "&IN_CRN="
+ // clientSideInclude("MiniGridContainer","./hwwkcsearch.P_Mini_Grid_Service",x)
+  var element2 = "";
+  var x="IN_TERM=" + in_term + "&IN_ACTION=I&IN_CRN_STRING=" + element2.value;
+  clientSideInclude("SharingContainer","./hwwkcsearch.P_Load_Cart",x);
+
+
+
+}
+
+function Delete_From_Cart(in_term,in_crn){
+  In_Progress();
+  window.scrollTo(0,0);
+  var x="IN_TERM=" + in_term + "&IN_CRN=" + in_crn + "&IN_ACTION=DROP"
+  clientSideInclude("ScheduleX","./hwwkcsearch.P_Grid_Service",x)
+  var x="IN_TERM=" + in_term;
+  clientSideInclude("Cart","./hwwkcsearch.P_Cart_Service?",x);
+  clientSideInclude("Cart_Buttons","./hwwkcsearch.P_Cart_Button_Service?",x);
+  //  var x="IN_TERM=" + in_term + "&IN_CRN="
+  //  clientSideInclude("MiniGridContainer","./hwwkcsearch.P_Mini_Grid_Service",x)
+  var element2 = "";
+  var x="IN_TERM=" + in_term + "&IN_ACTION=I&IN_CRN_STRING=" + element2.value;
+  clientSideInclude("SharingContainer","./hwwkcsearch.P_Load_Cart",x);
+
+
+
+  //Change Back to button
+  var element = document.getElementById("ABDIV" + in_crn);
+    try {
+          var temp = "<INPUT TYPE='submit' VALUE='Add to Cart' id='" + in_crn + "X' class='mytable' onClick=\"Add_To_Cart('" + in_term + "','" + in_crn + "','ADD');\">"
+
+          element.innerHTML="";
+          element.innerHTML=temp;
+
+        }
+      catch (e) {
+        null;
+        //not there
+      }
+}
+
+function Clear_Cart(in_term){
+
+  clearIt=confirm("Are you sure you want to clear your cart?");
+
+  if(clearIt){
+
+      In_Progress();
+      window.scrollTo(0,0);
+      var x="IN_TERM=" + in_term + "&IN_CRN=&IN_ACTION=CLEAR"
+      clientSideInclude("ScheduleX","./hwwkcsearch.P_Grid_Service",x)
+      var x="IN_TERM=" + in_term;
+      clientSideInclude("Cart","./hwwkcsearch.P_Cart_Service?",x);
+      clientSideInclude("Cart_Buttons","./hwwkcsearch.P_Cart_Button_Service?",x);
+     //   var x="IN_TERM=" + in_term + "&IN_CRN="
+     //  clientSideInclude("MiniGridContainer","./hwwkcsearch.P_Mini_Grid_Service",x)
+    var element2 = "";
+  var x="IN_TERM=" + in_term + "&IN_ACTION=I&IN_CRN_STRING=" + element2.value;
+  clientSideInclude("SharingContainer","./hwwkcsearch.P_Load_Cart",x);
+
+
+
+      //Change all non registerd items Back to button
+      var myDiv = document.getElementById( "Results" );
+      var divArr = myDiv.getElementsByTagName( "div" );
+
+      for (var i = 0; i < divArr.length; i++){
+        var divname = divArr[i].id;
+        if(divname.indexOf("ABDIV")== 0)
+        if (document.getElementById(divname).innerHTML.search("In Cart")>0){
+        //set back to Add to cart button
+        var crn= divname.substring(5);
+
+        //Change Back to button
+      var element = document.getElementById(divname);
+        try {
+              var temp = "<INPUT TYPE='submit' VALUE='Add to Cart' id='" + crn + "X' class='mytable' onClick=\"Add_To_Cart('" + in_term + "','" + crn + "','ADD');\">"
+
+              element.innerHTML="";
+              element.innerHTML=temp;
+
+            }
+          catch (e) {
+            null;
+            //not there
+          }
+
+        }
+      }
+  }
+
+
+}
+
+function set_zindex(in_thing) {
+ in_thing.style.zIndex=in_thing.style.zIndex - 1;
+}
+
+
+
+
+function Load_Cart(in_term,in_action){
+
+if(in_action=="LOAD")
+{
+
+  loadIt=confirm("Are you sure you want to load your cart?  All current unregistered courses will be removed.");
+
+  if(loadIt){
+
+              window.scrollTo(0,0);
+
+              //var my_element = document.getElementById("SharingContainer");
+              //var my_html ="<IMG style='position:absolute;left:230px;top:130px;' SRC='/wtlgifs/web_pg_roller.gif' HSPACE=0 VSPACE=0 BORDER=0/><b style='position:absolute;left:150px;top:180px;width:300px;' >Please wait while your cart is loaded.</b>";
+              //my_element.innerHTML=my_html;
+
+              var element2 = document.getElementById("CrnString");
+              var l_crn_string= element2.value;
+
+              var x="IN_TERM=" + in_term + "&IN_ACTION=LOAD&IN_CRN_STRING=" + element2.value;
+              clientSideInclude("SharingContainer","./hwwkcsearch.P_Load_Cart",x)
+              var x="IN_TERM=" + in_term + "&IN_CRN=&IN_ACTION="
+              clientSideInclude("ScheduleX","./hwwkcsearch.P_Grid_Service",x)
+              var x="IN_TERM=" + in_term;
+              clientSideInclude("Cart","./hwwkcsearch.P_Cart_Service?",x);
+              clientSideInclude("Cart_Buttons","./hwwkcsearch.P_Cart_Button_Service?",x);
+              //var x="IN_TERM=" + in_term + "&IN_CRN="
+              //clientSideInclude("MiniGridContainer","./hwwkcsearch.P_Mini_Grid_Service",x)
+
+              var element2 = document.getElementById("SharingContainer");
+              if (element2.innerHTML.search("The CRN List you entered was invalid.")>0)
+              {
+                null;
+              }
+              else
+              {
+
+                //Change all non registerd items Back to button
+                var myDiv = document.getElementById( "Results" );
+                var divArr = myDiv.getElementsByTagName( "DIV" );
+
+                for (var i = 0; i < divArr.length; i++)
+                {
+                  var divname = divArr[i].id;
+                  var crn= divname.substring(5);
+
+                if (document.getElementById(divname).innerHTML.search("Add to Cart")>0 && l_crn_string.indexOf(crn)>-1)
+                {
+                  var element = document.getElementById(divname);
+                  var crn= divname.substring(5);
+                  //change button to in cart
+                  try
+                  {
+                    element.innerHTML="";
+                    element.innerHTML="<div id='" +"ABDIV" + crn + "' class='mytable' style='width:80px;background-color:#CCCCCC;border:1px solid gray;height:15px;'><center><B>In Cart</b></center></div>";
+                  }
+                  catch (e)
+                  {
+                    alert("not there");
+                  }
+
+                }
+
+
+                  if (document.getElementById(divname).innerHTML.search("In Cart")>0 && divname.indexOf("ABDIV")>-1)
+                  {
+                    //set back to Add to cart button
+                    var crn= divname.substring(5);
+
+                    //Change Back to button
+                    var element = document.getElementById(divname);
+                    if(l_crn_string.indexOf(crn)==-1){
+                    try
+                    {
+                      var temp = "<INPUT TYPE='submit' VALUE='Add to Cart' id='" + crn + "X' class='mytable' onClick=\"Add_To_Cart('" + in_term + "','" + crn + "','ADD');\">"
+                      element.innerHTML="";
+                      element.innerHTML=temp;
+                    }
+                    catch (e)
+                    {
+                      null;
+                      //not there
+                    }
+
+                  }
+
+
+                }
+
+
+              }
+
+             Show_Cart();}
+        }
+}
+
+else if
+(in_action=="SAVE_NAME")
+{
+      var element1 = document.getElementById("CartName");
+      var element2 = document.getElementById("CrnString");
+      var l_crn_string= element2.value;
+
+
+      var x="IN_TERM=" + in_term + "&IN_ACTION=SAVE_NAME&IN_CRN_STRING=" + l_crn_string + "&IN_NAME=" + element1.value;
+      clientSideInclude("SharingContainer","./hwwkcsearch.P_Load_Cart",x);
+      alert("Cart " + element1.value + " has been saved.");
+
+}
+
+else if
+(in_action=="DELETE")
+{
+
+  var element2 = document.getElementById("NameDrop");
+  var w = element2.selectedIndex;
+
+  deleteIt=confirm("Are you sure you want delete the CRN list " + element2.options[w].text + "?");
+
+     if(deleteIt){
+
+      var x="IN_TERM=" + in_term + "&IN_ACTION=DELETE&IN_CRN_STRING=" + element2.options[w].text;
+      clientSideInclude("SharingContainer","./hwwkcsearch.P_Load_Cart",x)
+
+      }
+
+}
+
+
+}
+
+
+function adjust_sunday()
+{
+   var element = document.getElementById("CartContainer");
+   //element.style.overflowX="auto";
+
+}
+
+function adjust_week()
+{
+   var element = document.getElementById("CartContainer");
+  // element.style.overflowX="hidden";
+
+
+}
+
+
+window.onload= function() {resize_divs(); check_advanced(); }
+window.onresize = function() { resize_divs(); }
+
+
+</script>
+<FORM class="mytable" style="margin-top:0;margin-bottom:0;" ID="myform" NAME="myform" onSubmit="checkParms()"
+        ACTION="./hwwkcsearch.P_Main" METHOD="POST">
+</div>
+<div name="TOP" ID="TOP" class="Top">
+<div ID="Search" NAME="Search" class="Search">
+<div class="Term">
+<table class="mytable2"><tr>
+    <td class="mycell2">Term</td>
+    </tr>
+    <tr><td style="text-align:right;" class="mycell2">
+<SELECT NAME="IN_TERM" class="mytable" style="width:155px;height:20px;margin-left:-1px;" onChange="f_term_change();">
+<OPTION VALUE="201420">Spring 2015
+<OPTION VALUE="201520">Spring 2016
+<OPTION VALUE="201500">Summer 2015
+<OPTION VALUE="201510" SELECTED>Fall 2015
+</SELECT>
+</td><td align="center"></td></tr></table>
+</div>
+<div ID="ROW1" class="SubjectContainer">
+<table class="mytable2"><tr><td class="mycell2">Subject(s)</td></tr><tr><td class="mycell2">
+<INPUT class="mytable3" SIZE="25" TYPE="text" NAME="IN_SUBJ" ID="IN_SUBJ" WRAP="OFF"
+      onBlur="f_set_select_by_list(this.form.IN_SUBJ.value,this.form.IN_SUBJ_multi);"
+      value="BIOL,">
+<div class="Button1">
+            <IMG name="DBUT1" ID="DBUT1" SRC="/wtlgifs/darrow5.bmp" title="Click to display list, hold Ctrl for multiple select"
+            onClick="f_toggle_button('1','div_IN_SUBJ');" class="dbutton">
+            </div>
+<div id="div_IN_SUBJ" style="position:relative;overflow:hidden;z-index:1000;width:160px;height:0px; visibility:hidden;";>
+      <SELECT MULTIPLE class="mytable" NAME="IN_SUBJ_multi" attribute1="MULTIPLE" SIZE="25" STYLE="z-index:100;border=0;width:160px; height:226px;"
+      onmouseover="return f_go_drop('div_IN_SUBJ')"  onmouseout="return f_back_drop('div_IN_SUBJ')"
+      onChange="outputSelected(this.form.IN_SUBJ_multi,this.form.IN_SUBJ,',','LC_SUBJECT')">
+      </div>
+<OPTION VALUE="ALL">ALL
+<OPTION VALUE="AFRI">AFRI--Africana Studies
+<OPTION VALUE="AMST">AMST--American Studies
+<OPTION VALUE="ANTH">ANTH--Anthropology
+<OPTION VALUE="APMA">APMA--Applied Mathematics
+<OPTION VALUE="ARAB">ARAB--Arabic
+<OPTION VALUE="ARCH">ARCH--Archaeology and Ancient World
+<OPTION VALUE="ASYR">ASYR--Assyriology
+<OPTION VALUE="BEO">BEO--Business, Entrep. and Organ.
+<OPTION VALUE="BIOL" SELECTED>BIOL--Biology
+<OPTION VALUE="CATL">CATL--Catalan
+<OPTION VALUE="CHEM">CHEM--Chemistry
+<OPTION VALUE="CHIN">CHIN--Chinese
+<OPTION VALUE="CLAS">CLAS--Classics
+<OPTION VALUE="CLPS">CLPS--Cognitive,Linguistic,Psych Sci
+<OPTION VALUE="COLT">COLT--Comparative Literature
+<OPTION VALUE="CROL">CROL--Haitian-Creole
+<OPTION VALUE="CSCI">CSCI--Computer Science
+<OPTION VALUE="CZCH">CZCH--Czech
+<OPTION VALUE="DEVL">DEVL--Development Studies
+<OPTION VALUE="EAST">EAST--East Asian Studies
+<OPTION VALUE="ECON">ECON--Economics
+<OPTION VALUE="EDUC">EDUC--Education
+<OPTION VALUE="EGYT">EGYT--Egyptology
+<OPTION VALUE="EINT">EINT--English for Internationals
+<OPTION VALUE="ENGL">ENGL--English
+<OPTION VALUE="ENGN">ENGN--Engineering
+<OPTION VALUE="ENVS">ENVS--Environmental Studies
+<OPTION VALUE="ERLY">ERLY--Early Cultures
+<OPTION VALUE="ETHN">ETHN--Ethnic Studies
+<OPTION VALUE="FREN">FREN--French
+<OPTION VALUE="GEOL">GEOL--Geology
+<OPTION VALUE="GISP">GISP--Group Studies
+<OPTION VALUE="GNSS">GNSS--Gender and Sexuality Studies
+<OPTION VALUE="GREK">GREK--Greek
+<OPTION VALUE="GRMN">GRMN--German Studies
+<OPTION VALUE="HIAA">HIAA--Hist of Art and Architecture
+<OPTION VALUE="HISP">HISP--Hispanic Studies
+<OPTION VALUE="HIST">HIST--History
+<OPTION VALUE="HMAN">HMAN--Humanities
+<OPTION VALUE="HNDI">HNDI--Hindi-Urdu
+<OPTION VALUE="INTL">INTL--International Relations
+<OPTION VALUE="ITAL">ITAL--Italian
+<OPTION VALUE="JAPN">JAPN--Japanese
+<OPTION VALUE="JUDS">JUDS--Judaic Studies
+<OPTION VALUE="KREA">KREA--Korean
+<OPTION VALUE="LAST">LAST--Latin American Studies
+<OPTION VALUE="LATN">LATN--Latin
+<OPTION VALUE="LING">LING--Linguistics
+<OPTION VALUE="LITR">LITR--Literary Arts
+<OPTION VALUE="MATH">MATH--Mathematics
+<OPTION VALUE="MCM">MCM--Modern Culture and Media
+<OPTION VALUE="MDVL">MDVL--Medieval Studies
+<OPTION VALUE="MED">MED--Medical Education
+<OPTION VALUE="MES">MES--Middle East Studies
+<OPTION VALUE="MGRK">MGRK--Modern Greek
+<OPTION VALUE="MUSC">MUSC--Music
+<OPTION VALUE="NEUR">NEUR--BioMed-Neuroscience
+<OPTION VALUE="PHIL">PHIL--Philosophy
+<OPTION VALUE="PHP">PHP--Public Health
+<OPTION VALUE="PHYS">PHYS--Physics
+<OPTION VALUE="PLCY">PLCY--Public Policy
+<OPTION VALUE="PLME">PLME--Program in Liberal Med. Educ.
+<OPTION VALUE="PLSH">PLSH--Polish
+<OPTION VALUE="POBS">POBS--Portuguese and Brazilian Stu
+<OPTION VALUE="POLS">POLS--Political Science
+<OPTION VALUE="PRSN">PRSN--Persian
+<OPTION VALUE="RELS">RELS--Religious Studies
+<OPTION VALUE="REMS">REMS--Renaissance and Early Mod Stu
+<OPTION VALUE="RUSS">RUSS--Russian
+<OPTION VALUE="SANS">SANS--Sanskrit
+<OPTION VALUE="SCSO">SCSO--Science and Society
+<OPTION VALUE="SIGN">SIGN--American Sign Language
+<OPTION VALUE="SLAV">SLAV--Slavic
+<OPTION VALUE="SOC">SOC--Sociology
+<OPTION VALUE="SWED">SWED--Swedish
+<OPTION VALUE="TAPS">TAPS--Theatre Arts, Performance Stdy
+<OPTION VALUE="TKSH">TKSH--Turkish
+<OPTION VALUE="UNIV">UNIV--University Courses
+<OPTION VALUE="URBN">URBN--Urban Studies
+<OPTION VALUE="VISA">VISA--Visual Art
+</SELECT>
+</td></tr></table>
+</div>
+<div class="Title">
+<table class="mytable2">
+<tr><td class="mycell2">Title</td></tr><tr><td>
+<input class="mytable3" TYPE="text" NAME="IN_TITLE" SIZE="25" MAXLENGTH="25" SIZE="25" VALUE="">
+</td></tr></table>
+</div>
+<div class="Instructor">
+<table class="mytable2">
+<tr><td class="mycell2" style="padding-top:7px;">Instructor </td></tr>
+<tr><td class="mycell2"><input class="mytable3" TYPE="text" NAME="IN_INST" SIZE="25" MAXLENGTH="25" VALUE="">
+</td></tr></table>
+</div>
+<div class="Course">
+<table class="mytable2">
+<tr><td class="mycell2">Course Number (e.g. 0100)</td></tr></table>
+<input class="mytable3" TYPE="text" NAME="IN_CRSE" SIZE="25" MAXLENGTH="25" VALUE=""></td></tr></table>
+</div>
+<div class="Attributes">
+<table class="mytable2">
+<tr><td colspan=5 class="mycell2" style="padding-top:2px;"><IMG SRC="/wtlgifs/twggspac.gif" ALT="Blank space" CLASS="headerImg" TITLE="Blank space"  NAME="GeneralSpacer" HSPACE=0 VSPACE=7 BORDER=0 HEIGHT=1 WIDTH=1>Curricular Programs
+           <A HREF="/wtlhelp/twbhhelp.htm"   onClick="cpPopUp();return false;" target="_blank"  class="submenulinktext2">Hint</A>
+           </td></tr><tr>
+           <td colspan=5 class="mycell2">
+           <SELECT NAME="IN_ATTR" ID="IN_ATTR" class="mytable3" style="height:20px; width:155px; margin-left:1px;">
+<OPTION VALUE="ALL" SELECTED>ALL
+<OPTION VALUE="DPLL">Diverse Perspectives in LL
+<OPTION VALUE="FYS">First Year Seminar
+<OPTION VALUE="LILE">Liberal Learning
+<OPTION VALUE="SOPH">Sophomore Seminar
+<OPTION VALUE="WRIT">Writing - Designated Courses
+</SELECT>
+</td></tr></table>
+</div>
+<div class="IndependentStudy">
+<table class="mytable2">
+<tr><td NOWRAP class="mycell2">Exclude Independent Study
+<INPUT TYPE="checkbox" NAME="IN_INDP" CHECKED ID="IN_INDP" title="Click here to exclude indpendent study courses">
+</td></tr></table>
+</div>
+
+    <div class="AdvancedLink" ID="AdvancedLink">
+    <table class="mytable2">
+      <tr><td class="mycell2">
+    <a href="#" onclick="AdvancedToggle('on');" title="Click for expanded search">Expanded Search</a><br>(Search by meeting hours, department, or keyword in course description)
+    </td></tr></table>
+    </div>
+<div id="advanced" class="advanced" style="display:none;">
+<div class="HourContainer">
+<table class="mytable2"><tr><td class="mycell">Hour(s)</td></tr><tr><td class="mycell">
+
+      <INPUT class="mytable3" ID="IN_HOUR" TYPE="text" VALUE="" NAME="IN_HOUR" WRAP="OFF" SIZE="25"
+      onBlur="f_set_select_by_list(this.form.IN_HOUR.value,this.form.IN_HOUR_multi);">
+<div class="Button2">
+          <IMG name="DBUT2" ID="DBUT2" SRC="/wtlgifs/darrow5.bmp" title="Click to display list, hold Ctrl for multiple select"
+          onClick="f_toggle_button('2','div_IN_HOUR');" class="dbutton" align="top">
+          </div>
+
+      <div id="div_IN_HOUR" style="position:relative;overflow:hidden;z-index:150;width:155px;height:0px; visibility:hidden; background-color: WHITE;
+      overflow: hidden">
+<SELECT MULTIPLE class="mytable" ID="IN_HOUR_multi" NAME="IN_HOUR_multi" style="z-index:150;position:absolute;border=0;width:155px;height:175px;" attribute1="MULTIPLE" SIZE="15"
+      onmouseover="return f_go_drop('div_IN_HOUR')" onmouseout="return f_back_drop('div_IN_HOUR')"
+      onChange="outputSelected(this.form.IN_HOUR_multi,this.form.IN_HOUR,',','LC_HOURS')">
+</div>
+<OPTION VALUE="A">A Hour: M W F   8:00-8:50
+<OPTION VALUE="AB">AB Hour: M W     8:30-9:50
+<OPTION VALUE="B">B Hour: M W F   9:00-9:50
+<OPTION VALUE="C">C Hour: M W F   10:00-10:50
+<OPTION VALUE="D">D Hour: M W F   11:00-11:50
+<OPTION VALUE="E">E Hour: M W F   12:00-12:50
+<OPTION VALUE="F">F Hour: M W F   1:00-1:50
+<OPTION VALUE="G">G Hour: M W F   2:00-2:50
+<OPTION VALUE="H">H Hour:  T R    9:00-10:20
+<OPTION VALUE="I">I Hour:  T R    10:30-11:50
+<OPTION VALUE="J">J Hour:  T R    1:00-2:20
+<OPTION VALUE="K">K Hour:  T R    2:30-3:50
+<OPTION VALUE="L_">L Hour:  T R    6:40-8:00
+<OPTION VALUE="M_">M Hour: M       3:00-5:30
+<OPTION VALUE="N_">N Hour:   W     3:00-5:30
+<OPTION VALUE="O_">O Hour:     F   3:00-5:30
+<OPTION VALUE="P_">P Hour:  T      4:00-6:30
+<OPTION VALUE="Q_">Q Hour:    R    4:00-6:30
+<OPTION VALUE="T">T Hour: M W     3:00-4:20
+</SELECT>
+</td></tr></table>
+</div>
+<div class="Description">
+<table class="mytable2">
+<tr><td class="mycell2" style="padding-top:7px;">Course Description</td></tr><tr><td>
+<input class="mytable3" TYPE="text" NAME="IN_DESCRIPTION" ID="IN_DESCRIPTION" SIZE="25" MAXLENGTH="25" SIZE="25" VALUE="">
+</td></tr></table>
+</div>
+<div class="CreditValue">
+<table class="mytable2">
+<tr><td colspan=5 class="mycell2" style="padding-top:2px;"><IMG SRC="/wtlgifs/twggspac.gif" ALT="Blank space" CLASS="headerImg" TITLE="Blank space"  NAME="GeneralSpacer" HSPACE=0 VSPACE=7 BORDER=0 HEIGHT=1 WIDTH=1>Credit Value
+           </td></tr><tr>
+           <td colspan=5 class="mycell2">
+           <SELECT NAME="IN_CREDIT" ID="IN_CREDIT" class="mytable3" style="height:20px; width:155px; margin-left:1px;">
+<OPTION VALUE="ALL" SELECTED>ALL
+<OPTION VALUE="0.5">0.5
+<OPTION VALUE="1.0">1.0
+<OPTION VALUE="2.0">2.0
+</SELECT>
+</td></tr></table>
+</div>
+<div class="Department">
+<table class="mytable2">
+<tr><td colspan=5 class="mycell2"><IMG SRC="/wtlgifs/twggspac.gif" ALT="Blank space" CLASS="headerImg" TITLE="Blank space"  NAME="GeneralSpacer" HSPACE=0 VSPACE=7 BORDER=0 HEIGHT=1 WIDTH=1>Department
+ <A HREF="/wtlhelp/twbhhelp.htm"   onClick="dpPopUp();return false;" target="_blank"  class="submenulinktext2">Hint</A>
+    </td></tr><tr>
+            <td colspan=5 class="mycell2">
+              <SELECT NAME="IN_DEPT" ID="IN_DEPT" class="mytable" style="height:20px;width:155px;margin-left:1px;">
+<OPTION VALUE="ALL" SELECTED>ALL
+<OPTION VALUE="AFRI">Africana Studies
+<OPTION VALUE="AMST">American Studies
+<OPTION VALUE="ANTH">Anthropology
+<OPTION VALUE="APMA">Applied Mathematics
+<OPTION VALUE="ARCH">Inst for Arch and Anct World
+<OPTION VALUE="BEO">Business, Entrep. & Organiz.
+<OPTION VALUE="BIOL">Biology (Bio)
+<OPTION VALUE="BIOM">Bio-Med (Med)
+<OPTION VALUE="BMED">Bio-Med (PLME & MED)
+<OPTION VALUE="CHEM">Chemistry
+<OPTION VALUE="CLAS">Classics
+<OPTION VALUE="CLPS">Cognitive,Linguistic,Psych Sci
+<OPTION VALUE="COGT">Cogut Center for Humanities
+<OPTION VALUE="COLT">Comparative Literature
+<OPTION VALUE="COMP">Computer Science
+<OPTION VALUE="CRET">Center for Race and Ethnicity
+<OPTION VALUE="DEVL">Development Studies
+<OPTION VALUE="EAST">East Asian Studies
+<OPTION VALUE="ECON">Economics
+<OPTION VALUE="EDUC">Education
+<OPTION VALUE="EEPS">Earth, Environ. & Planetary Sc
+<OPTION VALUE="EGYA">Egyptology & Assyriology
+<OPTION VALUE="EGYT">Egyptology and Anct W. Asia St
+<OPTION VALUE="ENGL">English
+<OPTION VALUE="ENGN">Engineering
+<OPTION VALUE="ENVS">Environmental Studies
+<OPTION VALUE="ERLY">Early Cultures
+<OPTION VALUE="FREN">French Studies
+<OPTION VALUE="GEOL">Geological Sciences
+<OPTION VALUE="GRMN">German Studies
+<OPTION VALUE="HIAA">History of Art and Architectur
+<OPTION VALUE="HISP">Hispanic Studies
+<OPTION VALUE="HIST">History
+<OPTION VALUE="IBES">Inst. Brown for Env. and Soc.
+<OPTION VALUE="INTL">International Relations
+<OPTION VALUE="ITAL">Italian Studies
+<OPTION VALUE="JUDS">Judaic Studies
+<OPTION VALUE="LANG">Center for Language Studies
+<OPTION VALUE="LAST">Latin Americn & Caribbean Stdy
+<OPTION VALUE="LITA">Literary Arts
+<OPTION VALUE="MATH">Mathematics
+<OPTION VALUE="MCMD">Modern Culture and Media
+<OPTION VALUE="MDVL">Medieval Studies
+<OPTION VALUE="MES">Middle East Studies
+<OPTION VALUE="MUSC">Music
+<OPTION VALUE="NEUR">Neuroscience
+<OPTION VALUE="PEMB">Pembroke Cntr Teach and Rsrch
+<OPTION VALUE="PHIL">Philosophy
+<OPTION VALUE="PHP">Public Health
+<OPTION VALUE="PHYS">Physics
+<OPTION VALUE="PLCY">Public Policy
+<OPTION VALUE="POBS">Portuguese and Brazilian Stu
+<OPTION VALUE="POLS">Political Science
+<OPTION VALUE="PPAI">Public Policy and Amer Instns
+<OPTION VALUE="RELS">Religious Studies
+<OPTION VALUE="RENS">Renaissance Studies
+<OPTION VALUE="SLAV">Slavic Studies
+<OPTION VALUE="SOC">Sociology
+<OPTION VALUE="THTA">Theatre Arts & Performance Stu
+<OPTION VALUE="URBN">Urban Studies
+<OPTION VALUE="VISA">Visual Art
+</SELECT>
+</td></tr></table>
+</div>
+</div>
+<div class="SearchButtonRow" id="SearchButtonRow">
+<table><tr>
+<td>
+<INPUT TYPE="hidden" NAME="IN_METHOD" VALUE="S">
+<INPUT TYPE="hidden" NAME="IN_CRN" VALUE="">
+<INPUT TYPE="submit" VALUE="Search" onClick="Show_Search();setPageCookie(1);" class="searchbuttons">
+</FORM>
+</TD>
+<td >
+<FORM style="margin-bottom:0;" NAME="Reset_Button" ACTION="./hwwkcsearch.P_Main" METHOD="POST">
+<INPUT TYPE="hidden" NAME="IN_METHOD" VALUE="R">
+<INPUT TYPE="hidden" NAME="IN_TERM" VALUE="201510">
+<INPUT TYPE="hidden" NAME="IN_CRN" VALUE="">
+<INPUT TYPE="hidden" NAME="IN_CRSE" VALUE="">
+<INPUT TYPE="hidden" NAME="IN_CRN" VALUE="">
+<INPUT TYPE="hidden" NAME="IN_SUBJ" VALUE="">
+<INPUT TYPE="hidden" NAME="IN_SUBJ_multi" VALUE="dummy">
+<INPUT TYPE="hidden" NAME="IN_INST" VALUE="">
+<INPUT TYPE="hidden" NAME="IN_HOUR" VALUE="">
+<INPUT TYPE="hidden" NAME="IN_TITLE" VALUE="">
+<INPUT TYPE="hidden" NAME="IN_DESCRIPTION" VALUE="">
+<INPUT TYPE="hidden" NAME="IN_INDP" VALUE="Y">
+<INPUT TYPE="hidden" NAME="IN_CREDIT" VALUE="">
+<INPUT TYPE="submit" VALUE="Reset" onClick="Show_Search(); setPageCookie(1); createCookie('SEARCH','N','1');" class="searchbuttons">
+</FORM>
+</TD>
+<td>
+<FORM style="margin-bottom:0;" target="_blank" NAME="Reset_Button" ACTION="./hwwkcsearch.P_Help" METHOD="POST">
+<INPUT TYPE="submit" VALUE="Help" class="searchbuttons">
+</FORM>
+</td></tr></table>
+</form>
+<div>
+<div id="MiniGridContainer"
+</div>
+</div>
+</div>
+</div>
+</div>
+</FORM>
+<div ID="Bottom" NAME="Bottom" class="Bottom">
+<table align="center"><tr><td>
+<div class="tab-pane" id="tabPane1">
+
+<div class="tab-page" id="tabPage1">
+<h2 class="tab">
+<TABLE  CLASS="mytab" SUMMARY="This table displays Tab Items." cellSpacing=0 cellPadding=0 border=0>
+       <TR><td id="tab0a" name="tab0a" class="tabon" height=22>
+       <IMG SRC="/wtlgifs/twggspac.gif" ALT="Blank space" CLASS="headerImg" TITLE="Blank space"  NAME="GeneralSpacer" HSPACE=5 VSPACE=0 BORDER=0 HEIGHT=1 WIDTH=1>Search Results<IMG SRC="/wtlgifs/twggspac.gif" ALT="Blank space" CLASS="headerImg" TITLE="Blank space"  NAME="GeneralSpacer" HSPACE=5 VSPACE=0 BORDER=0 HEIGHT=1 WIDTH=1>
+       </TD><TD id="tab0b" name="tab0b" class="bgtabon" height=22 vAlign=top align=right>
+       <IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+       </TD></TR></TABLE></h2>
+<div style="position:relative;font-size:12px;color:#B80000;left:14px;margin-top:2px;margin-bottom:3px;">
+        <IMG align="TOP" text-align="left" style="border:none;margin-right:4px;" class="mytable" SRC="/wtlgifs/web_caution.gif" width="15">
+
+        <b>Adding to your cart does NOT register you for the course.</b></div>
+</form>
+
+
+   <div id="SearchResults"><br><b>Search Results:  0 classes found</b></div>
+<div class="Results" ID="Results">
+<table id="1" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10181">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10181X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10181','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10181','1');" NOWRAP>BIOL3770-S22</td>
+<td onClick="Show_Detail('201510','10181','1');" ><b>Clinical Neurology</b></td>
+<td onClick="Show_Detail('201510','10181','1');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="2" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10182">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10182X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10182','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10182','2');" NOWRAP>BIOL3780-S14</td>
+<td onClick="Show_Detail('201510','10182','2');" ><b>Comprehensive Elective in Neurology</b></td>
+<td onClick="Show_Detail('201510','10182','2');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="3" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10183">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10183X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10183','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10183','3');" NOWRAP>BIOL3790-S12</td>
+<td onClick="Show_Detail('201510','10183','3');" ><b>Aging and Dementia</b></td>
+<td onClick="Show_Detail('201510','10183','3');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="4" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10184">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10184X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10184','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10184','4');" NOWRAP>BIOL3790-S22</td>
+<td onClick="Show_Detail('201510','10184','4');" ><b>Aging and Dementia</b></td>
+<td onClick="Show_Detail('201510','10184','4');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="5" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10185">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10185X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10185','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10185','5');" NOWRAP>BIOL3795-S14</td>
+<td onClick="Show_Detail('201510','10185','5');" ><b>Elective Clerkship in Neurology</b></td>
+<td onClick="Show_Detail('201510','10185','5');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="6" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10186">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10186X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10186','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10186','6');" NOWRAP>BIOL3795-S24</td>
+<td onClick="Show_Detail('201510','10186','6');" ><b>Elective Clerkship in Neurology</b></td>
+<td onClick="Show_Detail('201510','10186','6');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="7" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10187">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10187X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10187','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10187','7');" NOWRAP>BIOL3800-S12</td>
+<td onClick="Show_Detail('201510','10187','7');" ><b>Neurosurgery</b></td>
+<td onClick="Show_Detail('201510','10187','7');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="8" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10188">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10188X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10188','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10188','8');" NOWRAP>BIOL3800-S13</td>
+<td onClick="Show_Detail('201510','10188','8');" ><b>Neurosurgery</b></td>
+<td onClick="Show_Detail('201510','10188','8');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="9" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10189">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10189X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10189','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10189','9');" NOWRAP>BIOL3800-S14</td>
+<td onClick="Show_Detail('201510','10189','9');" ><b>Neurosurgery</b></td>
+<td onClick="Show_Detail('201510','10189','9');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="10" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10190">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10190X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10190','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10190','10');" NOWRAP>BIOL3800-S22</td>
+<td onClick="Show_Detail('201510','10190','10');" ><b>Neurosurgery</b></td>
+<td onClick="Show_Detail('201510','10190','10');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="11" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10191">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10191X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10191','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10191','11');" NOWRAP>BIOL3800-S24</td>
+<td onClick="Show_Detail('201510','10191','11');" ><b>Neurosurgery</b></td>
+<td onClick="Show_Detail('201510','10191','11');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="12" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10195">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10195X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10195','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10195','12');" NOWRAP>BIOL3815-S14</td>
+<td onClick="Show_Detail('201510','10195','12');" ><b>Subinternship in Neurosurgery</b></td>
+<td onClick="Show_Detail('201510','10195','12');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="13" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV17009">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="17009X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','17009','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','17009','13');" NOWRAP>BIOL3815-S15</td>
+<td onClick="Show_Detail('201510','17009','13');" ><b>Subinternship in Neurosurgery</b></td>
+<td onClick="Show_Detail('201510','17009','13');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="14" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10196">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10196X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10196','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10196','14');" NOWRAP>BIOL3815-S24</td>
+<td onClick="Show_Detail('201510','10196','14');" ><b>Subinternship in Neurosurgery</b></td>
+<td onClick="Show_Detail('201510','10196','14');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="15" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10199">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10199X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10199','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10199','15');" NOWRAP>BIOL3900-S01</td>
+<td onClick="Show_Detail('201510','10199','15');" ><b>Core Clerkship in Surgery</b></td>
+<td onClick="Show_Detail('201510','10199','15');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="16" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10200">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10200X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10200','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10200','16');" NOWRAP>BIOL3900-S02</td>
+<td onClick="Show_Detail('201510','10200','16');" ><b>Core Clerkship in Surgery</b></td>
+<td onClick="Show_Detail('201510','10200','16');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="17" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10201">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10201X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10201','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10201','17');" NOWRAP>BIOL3905-S14</td>
+<td onClick="Show_Detail('201510','10201','17');" ><b>Individual Clerkship in Surgery</b></td>
+<td onClick="Show_Detail('201510','10201','17');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="18" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10202">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10202X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10202','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10202','18');" NOWRAP>BIOL3910-S12</td>
+<td onClick="Show_Detail('201510','10202','18');" ><b>Introduction to Surgical Oncology</b></td>
+<td onClick="Show_Detail('201510','10202','18');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="19" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10203">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10203X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10203','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10203','19');" NOWRAP>BIOL3910-S14</td>
+<td onClick="Show_Detail('201510','10203','19');" ><b>Introduction to Surgical Oncology</b></td>
+<td onClick="Show_Detail('201510','10203','19');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="20" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10204">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10204X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10204','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10204','20');" NOWRAP>BIOL3910-S24</td>
+<td onClick="Show_Detail('201510','10204','20');" ><b>Introduction to Surgical Oncology</b></td>
+<td onClick="Show_Detail('201510','10204','20');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="21" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10205">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10205X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10205','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10205','21');" NOWRAP>BIOL3920-S14</td>
+<td onClick="Show_Detail('201510','10205','21');" ><b>Surgery of the Alimentary Tract</b></td>
+<td onClick="Show_Detail('201510','10205','21');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="22" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10206">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10206X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10206','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10206','22');" NOWRAP>BIOL3920-S22</td>
+<td onClick="Show_Detail('201510','10206','22');" ><b>Surgery of the Alimentary Tract</b></td>
+<td onClick="Show_Detail('201510','10206','22');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="23" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10207">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10207X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10207','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10207','23');" NOWRAP>BIOL3930-S12</td>
+<td onClick="Show_Detail('201510','10207','23');" ><b>Physical Medicine and Rehabilitation</b></td>
+<td onClick="Show_Detail('201510','10207','23');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="24" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10208">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10208X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10208','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10208','24');" NOWRAP>BIOL3930-S14</td>
+<td onClick="Show_Detail('201510','10208','24');" ><b>Physical Medicine and Rehabilitation</b></td>
+<td onClick="Show_Detail('201510','10208','24');" NOWRAP>To Be Arranged</td>
+</tr></table>
+<table id="25" class="resultsrow" style="z-index:1; border: 1px solid #CCCCCC;margin-top:0px;margin-bottom:1px;padding-top:0px;"
+        onmouseover="changeColor(this.id,'#C0C0C0');"
+        onmouseout="changeColor(this.id,'white');">
+        <COLGROUP>
+        <COL style="width:80px;" width="80">
+        <COL style="width:90px;"width="90">
+        <COL style="width:250px;"width="250">
+        <COL style="width:250px;"width="250">
+        <tr><td>
+<div id="ABDIV10209">
+<INPUT TYPE="submit" VALUE="Add to Cart" id="10209X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','10209','ADD');">
+</div>
+</TD>
+</form>
+<td onClick="Show_Detail('201510','10209','25');" NOWRAP>BIOL3930-S22</td>
+<td onClick="Show_Detail('201510','10209','25');" ><b>Physical Medicine and Rehabilitation</b></td>
+<td onClick="Show_Detail('201510','10209','25');" NOWRAP>To Be Arranged</td>
+</tr></table>
+</div>
+<div id="SearchResults2"></div>
+</div>
+<div class="tab-page" id="tabPage2">
+ <h2 class="tab">
+ <TABLE  CLASS="mytab" SUMMARY="This table displays Tab Items." cellSpacing=0 cellPadding=0 border=0>
+       <TR><td id="tab1a" name="tab1a" class="tabon" height=22>
+       <IMG SRC="/wtlgifs/twggspac.gif" ALT="Blank space" CLASS="headerImg" TITLE="Blank space"  NAME="GeneralSpacer" HSPACE=5 VSPACE=0 BORDER=0 HEIGHT=1 WIDTH=1>Course Detail<IMG SRC="/wtlgifs/twggspac.gif" ALT="Blank space" CLASS="headerImg" TITLE="Blank space"  NAME="GeneralSpacer" HSPACE=5 VSPACE=0 BORDER=0 HEIGHT=1 WIDTH=1>
+       </TD><TD id="tab1b" name="tab1b" class="bgtabon" height=22 vAlign=top align=right>
+       <IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+       </TD></TR></TABLE></h2>
+
+       <div name="CourseDetail" class="CourseDetail" ID="CourseDetail">
+
+
+<style type="text/css" media="all">
+
+    .mytable{
+  font-family:arial,calibri;
+  font-size:12px;
+  }
+
+
+    .resultstable{
+  font-family:arial,calibri;
+  font-size:13px;
+  padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+   }
+</style>
+<DIV ID="CourseDetailx" class="CourseDetailx" style="height:100%;overflow:auto;" ><table class="resultstable">
+        <tr><td style="font-size:15px;padding-right:10px;"><b>TAPS2990-S01</b></td>
+        <td style="font-size:15px;"><b>Thesis Preparation</b></td>
+        </tr>
+<tr><td>CRN:14624</td></tr>
+<tr><td>
+<INPUT TYPE="submit" VALUE="Add to Cart" id="14624X"  style="z-index:5;font-size:11px;" class="mytable" onClick="Add_To_Cart('201510','14624','ADD');">
+</td></tr>
+<td style="color:#B80000;">995 of 999 Seats Available</td></tr>
+        <tr>
+        <td colspan="3">To Be Arranged</td>
+       </tr></table>
+<div id="div_DESC"  style="padding-left:20px;padding-top:5px;padding-bottom:5px;">
+<table class="resultstable" ><tr><td style="width:550px;">
+For graduate students who have met the tuition requirement and are paying the registration fee to continue active enrollment while preparing a thesis.
+</td></tr></table></div><table class="resultstable"><tr><td colspan="3"><b>Instructor(s)</b></td></tr><tr>
+<td colspan="10" class="resultstable">
+<ABBR title = "To Be Announced">TBA</ABBR>
+</td></tr>
+<tr><td class="resultstable" colspan="10">
+
+</td></tr>
+</table> <div class="resultstable" id="books14624" name="books14624"></div>
+<table class="resultstable"><tr bgcolor="#C2C2C2">
+<td>
+<a class="resultstable" href="#" onclick="Show_Search(); return;">Search Results</a>
+&nbsp;|&nbsp;<a class="resultstable" href="#" onclick="Show_Cart(); return;">Cart</a>
+&nbsp;|&nbsp;<a target="_blank" href=https://courses.brown.edu/courses/fall-2015/taps-2990-s01>Course Preview</a>
+            &nbsp;|&nbsp;<a target="_blank" href=http://www.thecriticalreview.org?action=search&advancedsearch=Search&EDITION=All&PROFESSOR=>Critical Review</a>
+       </td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<div class="tab-page" id="tabPage3">
+<h2 class="tab">
+<TABLE  CLASS="mytab" SUMMARY="This table displays Tab Items." cellSpacing=0 cellPadding=0 border=0>
+       <TR><td id="tab2a" name="tab2a" class="tabon" height=22>
+       <IMG SRC="/wtlgifs/twggspac.gif" ALT="Blank space" CLASS="headerImg" TITLE="Blank space"  NAME="GeneralSpacer" HSPACE=5 VSPACE=0 BORDER=0 HEIGHT=1 WIDTH=1>Cart<IMG SRC="/wtlgifs/twggspac.gif" ALT="Blank space" CLASS="headerImg" TITLE="Blank space"  NAME="GeneralSpacer" HSPACE=5 VSPACE=0 BORDER=0 HEIGHT=1 WIDTH=1>
+       </TD><TD id="tab2b" name="tab2b" class="bgtabon" height=22 vAlign=top align=right>
+       <IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+       </TD></TR></TABLE></h2>
+<div id="CartContainer"  class="CartContainer" style="margin-left:10px;">
+<div style="font-size:12px;color:#B80000;margin-left:4px;margin-top:2px;"><IMG align="TOP"  style="border:none;margin-right:4px;" class="mytable" SRC="/wtlgifs/web_caution.gif" width="15">
+        <b>Adding to your cart does NOT register you for the course.</b></div>
+<div  class="GridContainer">
+
+    <style type="text/css" media="all">
+
+    .DayHeader {
+    font-family:arial,calibri;
+    position:relative;
+    left:30px;
+    }
+
+    .GridBlock {
+    font-family:arial,calibri;
+    top:19px;
+    }
+
+    .GridBlock2 {
+    font-family:arial,calibri;
+    }
+
+   .Hours {
+    font-family:arial,calibri;
+        position:relative;
+    top:9px;
+        }
+
+
+    .NameGridCell {
+        position:relative;
+        font-family: arial,calibri;
+    font-size:2px;
+        color: inherit;
+        background-color: inherit;
+        border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+        height:24px;
+        width:100px;
+        cursor:hand;
+    display:block;
+    overflow:visible;
+        }
+
+    #NameCells {
+        position:relative;
+        font-family: arial,calibri;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 0px 0px 0px;
+        font-size:10px;
+    height:288px;
+        voice-family: "\"}\"";
+        voice-family:inherit;
+        left: 59px;
+        }
+        html>body #WeekDay {
+            left: 59px;
+        }
+
+    .NameDayLabel {
+        position:relative;
+    float:left;
+        font-family:arial,calibri;
+        padding: 0px 0px 0px 0px;
+        font-size: 10px;
+        line-height: 18px;
+    text-align: center;
+        font-size:11px;
+        border-top: 1px solid #C2C2C2;
+        border-bottom:1px solid #C2C2C2;
+    border-right:1px solid #C2C2C2;
+        width: 100px;
+        height: 18px;
+        voice-family: "\"}\"";
+        voice-family:inherit;
+        height:17px;
+        }
+        html>body #NameDayLabel {
+            height:17px;
+        }
+
+
+    .HourLabelName {
+    font-family:arial,calibri;
+        position:absolute;
+        font-size:11px;
+    border-top:1px solid gray;
+        }
+
+
+    .GridCell {
+    font-family:arial,calibri;
+        position:absolute;
+        padding: 0px 0px 0px 0px;
+        font-size:11px;
+    font-weight:bold;
+        top: 0px;
+        border-top: 1px solid black;
+        border-right: 1px solid black;
+        border-bottom:1px solid black;
+    border-left:1px solid black;
+    width: 98px;
+</style>
+<div id="ScheduleX" style="position:relative;">
+
+  <div class="DayHeader" style="
+
+top:10px;">
+    <div class="NameDayLabel" style="border-left:1px solid #C2C2C2;">Mon</div>
+        <div class="NameDayLabel">Tue</div>
+    <div class="NameDayLabel">Wed</div>
+    <div class="NameDayLabel">Thu</div>
+    <div class="NameDayLabel"">Fri</div>
+</div>
+
+<style type="text/css">
+.wrapper{
+   position: relative;
+   float: left;
+   margin-bottom: 0px;
+   top:10px;
+
+
+
+}
+.left1{
+   position: relative;
+   float: left;
+   width: 100px;
+   height: 23px;
+   border-bottom:1px solid #C2C2C2;
+   border-left: 1px solid #C2C2C2;
+   border-right:1px solid #C2C2C2;
+   }
+
+.right1{
+   position: relative;
+   float: left;
+   width: 100px;
+   height: 23px;
+   border-bottom:1px solid #C2C2C2;
+   border-right:1px solid #C2C2C2;
+   }
+
+ .hourlabel1{
+    font-family:arial,calibri;
+        position:relative;
+    float:left;
+    width: 30px;
+    height: 23px;
+        font-size:11px;
+    border-bottom:1px solid gray; }
+
+
+}
+body {
+   border-width: 0px;
+   padding: 0px;
+   margin: 0px;
+   font-size: 90%;
+}
+</style>
+</head>
+<body>
+<div class="wrapper">
+       <div class="hourlabel1">08:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">09:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">10:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">11:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">12:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">01:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">02:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">03:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">04:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">05:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">06:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">07:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">08:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">09:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div class="wrapper">
+       <div class="hourlabel1">10:00&nbsp;</div>
+<div class="left1">
+         </div>
+       <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+         <div class="right1">
+         </div>
+       <div class="right1">
+         </div>
+</div>
+<div>
+<div class="GridBlock2">
+
+        <div onClick="set_zindex(this);" class="GridCell" title="Section: S01
+ Modern Turkey: Emp, Nat, Rep 
+Primary Meeting: M W F   10:00 am - 10:50 am
+ Salomon Center 001
+ CRN: 17041"  id="17041"
+      style="position: absolute;
+        z-index:1;
+      top: 76px;
+        left:      31px;
+
+        height: 18px;
+              background-color:#DFD562;
+"><center>
+
+        <a href="#" onClick="Show_Detail('201510','17041','NONE');">HIST1460 </a>
+<IMG onClick="Delete_From_Cart('201510','17041');" align="TOP" title="Remove from Cart" alt="Remove from Cart" style="border:none;" class="mytable" SRC="/wtlgifs/web_exit2.gif" height="15"> 
+</center></div>
+
+        <div onclick="set_zindex(this);" class="GridCell" title="Section: S01
+ Modern Turkey: Emp, Nat, Rep 
+Primary Meeting: M W F   10:00 am - 10:50 am
+ Salomon Center 001
+ CRN: 17041" id="17041"
+        style="position: absolute;
+        z-index:1;
+            top: 76px; 
+left:     233px;
+          height: 18px;
+
+         background-color:#DFD562;
+"><center>
+            <a href="#" onClick="Show_Detail('201510','17041','NONE');">HIST1460 </a>
+<IMG onClick="Delete_From_Cart('201510','17041');" align="TOP" title="Remove from Cart" alt="Remove from Cart" style="border:none;" class="mytable" SRC="/wtlgifs/web_exit2.gif" height="15"> 
+</center></div>
+
+
+        <div onClick="set_zindex(this);" class="GridCell" title="Section: S01
+ Modern Turkey: Emp, Nat, Rep 
+Primary Meeting: M W F   10:00 am - 10:50 am
+ Salomon Center 001
+ CRN: 17041" id="17041"
+        style="position: absolute;
+          z-index:1;
+        top: 76px;
+   top: 76px; 
+left:     435px;
+          height: 18px;
+
+         background-color:#DFD562;
+"><center>
+
+            <a href="#" onClick="Show_Detail('201510','17041','NONE');">HIST1460 </a>
+<IMG onClick="Delete_From_Cart('201510','17041');" align="TOP" title="Remove from Cart" alt="Remove from Cart" style="border:none;" class="mytable" SRC="/wtlgifs/web_exit2.gif" height="15"> 
+</center></div>
+
+        <div onClick="set_zindex(this);" class="GridCell" title="**REGISTERED**
+ Section: S01
+ History of Israel 
+Primary Meeting:  T R    01:00 pm - 02:20 pm
+ Sayles Hall 005
+ CRN: 14680" id="14680"
+        style="position: absolute;
+        z-index:2;
+          top: 148px; 
+left:     132px;
+          height: 29px;
+
+         background-color:#C0C0C0;
+"><center>
+
+        <a href="#" onClick="Show_Detail('201510','14680','NONE');">JUDS1711 </a>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15"></center></div>
+
+        <div onClick="set_zindex(this);" class="GridCell" title="**REGISTERED**
+ Section: S01
+ History of Israel 
+Primary Meeting:  T R    01:00 pm - 02:20 pm
+ Sayles Hall 005
+ CRN: 14680" id="14680"
+        style="position: absolute;
+        z-index:2;
+     top: 148px; 
+left:     334px;
+          height: 29px;
+
+         background-color:#C0C0C0;
+"><center>
+             <a href="#" onClick="Show_Detail('201510','14680','NONE');">JUDS1711 </a>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15"></center></div>
+
+        <div onClick="set_zindex(this);" class="GridCell" title="**REGISTERED**
+ Section: S03
+ First-Year Arabic 
+Primary Meeting: M W F   02:00 pm - 02:50 pm
+ From: 09/09/15 to 12/21/15
+ Sayles Hall 005
+Primary Meeting:  T R    02:30 pm - 03:50 pm
+ From: 09/09/15 to 12/21/15
+ Sayles Hall 005
+ CRN: 14695"  id="14695"
+      style="position: absolute;
+        z-index:3;
+      top: 172px;
+        left:      31px;
+
+        height: 18px;
+              background-color:#C0C0C0;
+"><center>
+
+        <a href="#" onClick="Show_Detail('201510','14695','NONE');">ARAB0100 </a>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15"></center></div>
+
+        <div onclick="set_zindex(this);" class="GridCell" title="**REGISTERED**
+ Section: S03
+ First-Year Arabic 
+Primary Meeting: M W F   02:00 pm - 02:50 pm
+ From: 09/09/15 to 12/21/15
+ Sayles Hall 005
+Primary Meeting:  T R    02:30 pm - 03:50 pm
+ From: 09/09/15 to 12/21/15
+ Sayles Hall 005
+ CRN: 14695" id="14695"
+        style="position: absolute;
+        z-index:3;
+            top: 172px; 
+left:     233px;
+          height: 18px;
+
+         background-color:#C0C0C0;
+"><center>
+            <a href="#" onClick="Show_Detail('201510','14695','NONE');">ARAB0100 </a>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15"></center></div>
+
+
+        <div onClick="set_zindex(this);" class="GridCell" title="**REGISTERED**
+ Section: S03
+ First-Year Arabic 
+Primary Meeting: M W F   02:00 pm - 02:50 pm
+ From: 09/09/15 to 12/21/15
+ Sayles Hall 005
+Primary Meeting:  T R    02:30 pm - 03:50 pm
+ From: 09/09/15 to 12/21/15
+ Sayles Hall 005
+ CRN: 14695" id="14695"
+        style="position: absolute;
+          z-index:3;
+        top: 172px;
+   top: 172px; 
+left:     435px;
+          height: 18px;
+
+         background-color:#C0C0C0;
+"><center>
+
+            <a href="#" onClick="Show_Detail('201510','14695','NONE');">ARAB0100 </a>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15"></center></div>
+
+        <div onClick="set_zindex(this);" class="GridCell" title="**REGISTERED**
+ Section: S03
+ First-Year Arabic 
+Primary Meeting: M W F   02:00 pm - 02:50 pm
+ From: 09/09/15 to 12/21/15
+ Sayles Hall 005
+Primary Meeting:  T R    02:30 pm - 03:50 pm
+ From: 09/09/15 to 12/21/15
+ Sayles Hall 005
+ CRN: 14695" id="14695"
+        style="position: absolute;
+        z-index:4;
+          top: 184px; 
+left:     132px;
+          height: 29px;
+
+         background-color:#C0C0C0;
+"><center>
+
+        <a href="#" onClick="Show_Detail('201510','14695','NONE');">ARAB0100 </a>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15"></center></div>
+
+        <div onClick="set_zindex(this);" class="GridCell" title="**REGISTERED**
+ Section: S03
+ First-Year Arabic 
+Primary Meeting: M W F   02:00 pm - 02:50 pm
+ From: 09/09/15 to 12/21/15
+ Sayles Hall 005
+Primary Meeting:  T R    02:30 pm - 03:50 pm
+ From: 09/09/15 to 12/21/15
+ Sayles Hall 005
+ CRN: 14695" id="14695"
+        style="position: absolute;
+        z-index:4;
+     top: 184px; 
+left:     334px;
+          height: 29px;
+
+         background-color:#C0C0C0;
+"><center>
+             <a href="#" onClick="Show_Detail('201510','14695','NONE');">ARAB0100 </a>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15"></center></div>
+
+        <div onClick="set_zindex(this);" class="GridCell" title="**REGISTERED**
+ Section: S01
+ Database Management Systems 
+Primary Meeting: M W     03:00 pm - 04:20 pm
+ CIT Center (Thomas Watson CIT) 368
+ CRN: 16290"  id="16290"
+      style="position: absolute;
+        z-index:5;
+      top: 196px;
+        left:      31px;
+
+        height: 29px;
+              background-color:#C0C0C0;
+"><center>
+
+        <a href="#" onClick="Show_Detail('201510','16290','NONE');">CSCI1270 </a>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15"></center></div>
+
+        <div onclick="set_zindex(this);" class="GridCell" title="**REGISTERED**
+ Section: S01
+ Database Management Systems 
+Primary Meeting: M W     03:00 pm - 04:20 pm
+ CIT Center (Thomas Watson CIT) 368
+ CRN: 16290" id="16290"
+        style="position: absolute;
+        z-index:5;
+            top: 196px; 
+left:     233px;
+          height: 29px;
+
+         background-color:#C0C0C0;
+"><center>
+            <a href="#" onClick="Show_Detail('201510','16290','NONE');">CSCI1270 </a>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15"></center></div>
+
+
+        <div onClick="set_zindex(this);" class="GridCell" title="**REGISTERED**
+ Section: S01
+ Approaches to The Middle East 
+Primary Meeting:     F   03:00 pm - 05:30 pm
+ J. Walter Wilson 402
+ CRN: 15426" id="15426"
+        style="position: absolute;
+          z-index:6;
+        top: 196px;
+   top: 196px; 
+left:     435px;
+          height: 56px;
+
+         background-color:#C0C0C0;
+"><center>
+
+            <a href="#" onClick="Show_Detail('201510','15426','NONE');">HIST1968 </a>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15"></center></div>
+ </div>
+<IMG style="display:none;" SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" TITLE="Transparent Image"  NAME="web_transparent"
+      HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=0 WIDTH=0 onLoad="adjust_week();");">
+</div>
+ </div>
+</div>
+<div id="Cart_Buttons" class="Cart" style="position:relative;float:left;">
+<table class="mytable" style="margin-left:30px;"><tr>
+</form><td class="mytable" valign="bottom" style="font-size:14px;padding-top:1px;" rowspan="2">
+<INPUT TYPE="submit" VALUE="Clear Cart" class="mytable" onClick="Clear_Cart('201510');">
+</TD>
+<td style="font-size:14px;" colspan="2">
+<FORM style="margin-bottom:0;" ACTION="./bwckcoms.P_Regs" METHOD="POST" onSubmit="return checkSubmit()">
+            <INPUT TYPE="hidden" NAME="term_in" VALUE="201510">
+            <INPUT TYPE="hidden" NAME="RSTS_IN" VALUE="">
+            <INPUT TYPE="hidden" NAME="assoc_term_in" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="CRN_IN" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="start_date_in" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="end_date_in" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="SUBJ" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="CRSE" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="SEC" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="LEVL" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="CRED" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="GMOD" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="TITLE" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="MESG" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="REG_BTN" VALUE="DUMMY">
+            <INPUT TYPE="hidden" NAME="MESG" VALUE="DUMMY">
+
+              <INPUT TYPE="hidden" NAME="RSTS_IN" VALUE="">
+              <INPUT TYPE="hidden" NAME="assoc_term_in" VALUE="201510">
+              <INPUT TYPE="hidden" NAME="CRN_IN"  VALUE="14680">
+              <INPUT TYPE="hidden" NAME="start_date_in" VALUE="">
+              <INPUT TYPE="hidden" NAME="end_date_in" VALUE="">
+              <INPUT TYPE="hidden" NAME="SUBJ" VALUE="">
+              <INPUT TYPE="hidden" NAME="CRSE" VALUE="">
+              <INPUT TYPE="hidden" NAME="SEC" VALUE="">
+              <INPUT TYPE="hidden" NAME="LEVL" VALUE="">
+              <INPUT TYPE="hidden" NAME="CRED" VALUE="">
+              <INPUT TYPE="hidden" NAME="GMOD" VALUE="">
+              <INPUT TYPE="hidden" NAME="TITLE" VALUE="">
+              <INPUT TYPE="hidden" NAME="MESG" VALUE=""> 
+
+              <INPUT TYPE="hidden" NAME="RSTS_IN" VALUE="">
+              <INPUT TYPE="hidden" NAME="assoc_term_in" VALUE="201510">
+              <INPUT TYPE="hidden" NAME="CRN_IN"  VALUE="14695">
+              <INPUT TYPE="hidden" NAME="start_date_in" VALUE="">
+              <INPUT TYPE="hidden" NAME="end_date_in" VALUE="">
+              <INPUT TYPE="hidden" NAME="SUBJ" VALUE="">
+              <INPUT TYPE="hidden" NAME="CRSE" VALUE="">
+              <INPUT TYPE="hidden" NAME="SEC" VALUE="">
+              <INPUT TYPE="hidden" NAME="LEVL" VALUE="">
+              <INPUT TYPE="hidden" NAME="CRED" VALUE="">
+              <INPUT TYPE="hidden" NAME="GMOD" VALUE="">
+              <INPUT TYPE="hidden" NAME="TITLE" VALUE="">
+              <INPUT TYPE="hidden" NAME="MESG" VALUE=""> 
+
+              <INPUT TYPE="hidden" NAME="RSTS_IN" VALUE="">
+              <INPUT TYPE="hidden" NAME="assoc_term_in" VALUE="201510">
+              <INPUT TYPE="hidden" NAME="CRN_IN"  VALUE="15426">
+              <INPUT TYPE="hidden" NAME="start_date_in" VALUE="">
+              <INPUT TYPE="hidden" NAME="end_date_in" VALUE="">
+              <INPUT TYPE="hidden" NAME="SUBJ" VALUE="">
+              <INPUT TYPE="hidden" NAME="CRSE" VALUE="">
+              <INPUT TYPE="hidden" NAME="SEC" VALUE="">
+              <INPUT TYPE="hidden" NAME="LEVL" VALUE="">
+              <INPUT TYPE="hidden" NAME="CRED" VALUE="">
+              <INPUT TYPE="hidden" NAME="GMOD" VALUE="">
+              <INPUT TYPE="hidden" NAME="TITLE" VALUE="">
+              <INPUT TYPE="hidden" NAME="MESG" VALUE=""> 
+
+              <INPUT TYPE="hidden" NAME="RSTS_IN" VALUE="">
+              <INPUT TYPE="hidden" NAME="assoc_term_in" VALUE="201510">
+              <INPUT TYPE="hidden" NAME="CRN_IN"  VALUE="16290">
+              <INPUT TYPE="hidden" NAME="start_date_in" VALUE="">
+              <INPUT TYPE="hidden" NAME="end_date_in" VALUE="">
+              <INPUT TYPE="hidden" NAME="SUBJ" VALUE="">
+              <INPUT TYPE="hidden" NAME="CRSE" VALUE="">
+              <INPUT TYPE="hidden" NAME="SEC" VALUE="">
+              <INPUT TYPE="hidden" NAME="LEVL" VALUE="">
+              <INPUT TYPE="hidden" NAME="CRED" VALUE="">
+              <INPUT TYPE="hidden" NAME="GMOD" VALUE="">
+              <INPUT TYPE="hidden" NAME="TITLE" VALUE="">
+              <INPUT TYPE="hidden" NAME="MESG" VALUE=""> 
+<INPUT TYPE="hidden" NAME="rsts_in" VALUE="RW">
+              <INPUT TYPE="hidden" NAME="crn_in" SIZE="6" MAXLENGTH="5" VALUE="17041" ID="crn_id5">
+              <INPUT TYPE="hidden" NAME="assoc_term_in" VALUE="">
+              <INPUT TYPE="hidden" NAME="start_date_in" VALUE="">
+              <INPUT TYPE="hidden" NAME="end_date_in" VALUE="">
+<INPUT TYPE="hidden" NAME="regs_row" VALUE="4">
+            <INPUT TYPE="hidden" NAME="wait_row" VALUE="0">
+            <INPUT TYPE="hidden" NAME="add_row" VALUE="1">
+<INPUT TYPE="submit" NAME="REG_BTN" VALUE="Register Cart" onClick="setPageCookie(1)" class="mytable">
+</FORM>
+</TD>
+<td><FORM style="margin-bottom:0;" NAME="Register_Button" ACTION="./bwskfreg.P_AltPin" METHOD="POST">
+<INPUT TYPE="hidden" NAME="term_in" VALUE="201510">
+<INPUT TYPE="submit" VALUE="Go to Registration" title="Click here if you need to drop a registered course" onClick="setPageCookie(1)" class="mytable">
+</FORM>
+</TD>
+<td class="mytable">
+<FORM style="margin-bottom:0;" NAME="Print_Button" target="_blank" ACTION="./hwwkcsearch.P_Print" METHOD="POST"><INPUT TYPE="hidden" NAME="IN_TERM" VALUE="201510">
+<INPUT TYPE="submit" VALUE="Print Cart" class="mytable">
+</FORM>
+</td>
+<td class="mytable">
+
+
+           <FORM style="margin-bottom:0;"NAME="Print_Button"  ACTION="./hwwkcsearch.ics" METHOD="POST">
+<INPUT TYPE="hidden" NAME="IN_TERM" VALUE="201510">
+<INPUT TYPE="hidden" NAME="IN_PIDM" VALUE="593365">
+<INPUT TYPE="submit" VALUE="iCal Export" class="mytable">
+</FORM>
+</tr></table>
+<div style="font-size:12px;color:#0000FF;margin-bottom:14px;"><IMG align="TOP"  style="border:none;margin-right:4px;" class="mytable" SRC="/wtlgifs/web_caution.gif" width="15">
+        <b>After clicking Register Cart, please wait for your transaction to be processed, as indicated by display of the confirmation page. Refreshing or exiting/restarting your browser will only further delay processing of your registration request.</b> </div>
+</div>
+<div style="float:left;margin-top:5px;" id="Cart" class="Cart">
+<div style="font-size:12px;color:#B80000;margin-bottom:14px;"><IMG align="TOP"  style="border:none;margin-right:4px;" class="mytable" SRC="/wtlgifs/web_caution.gif" width="15">
+        <b>Adding to your cart does NOT register you for the course.</b> </div>
+<table style="border:2px,solid,black;font-size:11px;" class="mytable">
+<tr style="border:1px, solid, black;">
+<td>
+</td>
+<td>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15">
+</td>
+      <td >
+      <a href="#" onClick="Show_Detail('201510','14695','NONE');">ARAB0100 </a>
+      </td>
+      <td>
+      S03
+      </td>
+      <td  width="200">
+      First-Year Arabic
+      </td>
+      <td>
+      Primary Meeting: M W F   02:00 pm - 02:50 pm<br>From: 09/09/15 to 12/21/15<br>Sayles Hall 005<BR>Primary Meeting:  T R    02:30 pm - 03:50 pm<br>From: 09/09/15 to 12/21/15<br>Sayles Hall 005</td>
+</tr>
+<tr style="border:1px, solid, black;">
+<td>
+</td>
+<td>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15">
+</td>
+      <td >
+      <a href="#" onClick="Show_Detail('201510','16290','NONE');">CSCI1270 </a>
+      </td>
+      <td>
+      S01
+      </td>
+      <td  width="200">
+      Database Management Systems
+      </td>
+      <td>
+      Primary Meeting: M W     03:00 pm - 04:20 pm<br>CIT Center (Thomas Watson CIT) 368</td>
+</tr>
+<tr style="border:1px, solid, black;">
+<td>
+ <IMG title="Remove HIST1460-S01 from Cart" title="Remove from Cart" alt="Remove from Cart" onClick="Delete_From_Cart('201510','17041');" style="border:none;"class="mytable" SRC="/wtlgifs/web_exit2.gif" width="15">
+</td>
+<td>
+<div style="border:1px solid black;background-color:#DFD562;  left:5px; width: 15px; height: 15px;"></div>
+</td>
+      <td >
+      <a href="#" onClick="Show_Detail('201510','17041','NONE');">HIST1460 </a>
+      </td>
+      <td>
+      S01
+      </td>
+      <td  width="200">
+      Modern Turkey: Empire, Nation, Republic
+      </td>
+      <td>
+      Primary Meeting: M W F   10:00 am - 10:50 am<br>Salomon Center 001</td>
+</tr>
+<tr style="border:1px, solid, black;">
+<td>
+</td>
+<td>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15">
+</td>
+      <td >
+      <a href="#" onClick="Show_Detail('201510','15426','NONE');">HIST1968 </a>
+      </td>
+      <td>
+      S01
+      </td>
+      <td  width="200">
+      Approaches to The Middle East
+      </td>
+      <td>
+      Primary Meeting:     F   03:00 pm - 05:30 pm<br>J. Walter Wilson 402</td>
+</tr>
+<tr style="border:1px, solid, black;">
+<td>
+</td>
+<td>
+<IMG align="TOP" title="**REGISTERED**" style="border:none; margin-right:8px;" class="mytable" SRC="/wtlgifs/web_checkbox.gif" width="15">
+</td>
+      <td >
+      <a href="#" onClick="Show_Detail('201510','14680','NONE');">JUDS1711 </a>
+      </td>
+      <td>
+      S01
+      </td>
+      <td  width="200">
+      History of the State of Israel: 1948 to the Present
+      </td>
+      <td>
+      Primary Meeting:  T R    01:00 pm - 02:20 pm<br>Sayles Hall 005</td>
+</tr>
+</table>
+</div>
+<div style="float:left;position:relative;margin-top:15px;"><table class="resultstable"><tr bgcolor="#C2C2C2">
+<td><a class="resultstable" href="#" onclick="Show_Search(); return;">Search Results</a>
+&nbsp;|&nbsp;<a class="resultstable" href="#" onclick="Show_Tab(1); return;">Course Detail</a>
+&nbsp;|&nbsp;<a class="resultstable" href="#" onclick="Show_Tab(3); return;">Sharing</a>
+&nbsp;|&nbsp;<A class="resultstable" HREF="mailto: Course_Scheduler_Feedback@brown.edu?subject=Course Scheduler Suggestions">Suggestions?</a></td>
+  </tr></table></div>
+</div>
+</div>
+<div class="tab-page" id="tabPage4">
+<h2 class="tab">
+<TABLE  CLASS="mytab" SUMMARY="This table displays Tab Items." cellSpacing=0 cellPadding=0 border=0>
+       <TR><td id="tab3a" name="tab3a" class="tabon" height=22>
+       <IMG SRC="/wtlgifs/twggspac.gif" ALT="Blank space" CLASS="headerImg" TITLE="Blank space"  NAME="GeneralSpacer" HSPACE=5 VSPACE=0 BORDER=0 HEIGHT=1 WIDTH=1>Save Multiple Carts<IMG SRC="/wtlgifs/twggspac.gif" ALT="Blank space" CLASS="headerImg" TITLE="Blank space"  NAME="GeneralSpacer" HSPACE=5 VSPACE=0 BORDER=0 HEIGHT=1 WIDTH=1>
+       </TD><TD id="tab3b" name="tab3b" class="bgtabon" height=22 vAlign=top align=right>
+       <IMG SRC="/wtlgifs/web_tab_corner_right.gif" ALT="Tab Corner Right" TITLE="Tab Corner Right"  NAME="web_tab_corner_right" HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=20 WIDTH=8>
+       </TD></TR></TABLE></h2>
+<div id="SharingContainer"  class="CartContainer" style="margin-left:5px;height:100%;overflow-y:auto;overflow-x:hidden;">
+
+    <style type="text/css" media="all">
+
+
+  .mytable2{
+  font-family:arial,calibri;
+  font-size:11px;
+  padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-spacing: 0;
+  border-collapse: collapse;
+   }
+
+  .mytable3{
+  font-family:arial,calibri;
+  font-size:11px;
+    margin: 0px 0px 0px 0px;
+  }
+
+
+  .mycell2{
+  padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-top: 0px;
+  border-spacing: 0;
+  border-collapse: collapse;
+  height:1px;
+  font-size:11px
+  }
+
+
+  .mycell3{
+  margin: 0px 0px 0px 0px;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  }
+
+    </style>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+   function f_crn_list_pop(in_value)
+   {
+      var ldesc;
+      document.getElementById("CrnString").value = in_value;
+   }
+
+</script>
+<div style="position:relative;margin-top:5px;font-size:12px;" class="mytable">
+Your current Cart contains the following CRN's:&nbsp;&nbsp<b style="color:green;"><br><br>14680,14695,15426,16290,17041</b><br><br>
+      To give this CRN list a name enter it below and click Save List<br>NOTE:  If you enter an existing list name, it will be overwritten with the current cart<br>
+      <input id="CartName"  style="font-family:arial,calibri;font-size:12px;" class="mytable" TYPE="text"  SIZE="19" MAXLENGTH="10" VALUE=""><br> 
+<INPUT TYPE="submit" VALUE="Save List" title=""   style="font-family:arial,calibri;font-size:12px;" onClick="Load_Cart('201510','SAVE_NAME');">
+</div>
+<div class="mytable" style="position:relative;font-size:12px;">
+<br>Select list name or enter a list of CRN's TO load.<br>
+<div class="mytable"  style="font-size:12px;">
+<table class="mytable2  style="font-size:12px;">
+           <tr><td class="mycell2">
+<SELECT id="NameDrop" NAME="IN_TERM" class="mytable" style="width:125px;height:19px;font-size:12px;" onChange="f_crn_list_pop(this.value);">
+<OPTION VALUE="14695,14904,14915,15426,15801,16290">ButActualy
+<OPTION VALUE="14695,14904,14915,14944,15061,15426,15981,16290,16616">HeraldS
+<OPTION VALUE="14693,14904,14915,15426,16290">Ideal
+<OPTION VALUE="14693,15426">Register
+<OPTION VALUE="14695,14904,14915,14944,15061,15426,15801,15981,16290,16616">Shop
+<OPTION VALUE="" SELECTED>None
+</SELECT>
+
+
+    <input id="CrnString" style="font-size:12px;margin-left:15px;" class="mytable" TYPE="text" NAME="IN_CRN_STRING" SIZE="50" MAXLENGTH="70" VALUE="14680,14695,15426,16290,17041" onLoad="f_crn_list_pop(100);">
+    </td><td align="center"></td></tr></table>
+<INPUT TYPE="submit" VALUE="Load List" title="Click to Load Cart with CRN list above" class="mytable"   style=" width:127px; font-size:12px;" onClick="Load_Cart('201510','LOAD');">
+<a style="margin-left:10px;" href="mailto:?subject=14680,14695,15426,16290,17041"><IMG align="TOP"  style="border:none;margin-left:5px; margin-top:6px;margin-right:4px;" class="mytable" SRC="/wtlgifs/web_email.gif" width="15">
+    Email this CRN List</a>
+</div>
+<br>
+<div style="position:relative;left:142px;">
+<INPUT TYPE="submit" VALUE="Delete List" title="Click to delete the CRN list name" class="mytable"  style="width:127px;font-size:12px;"onClick="Load_Cart('201510','DELETE');">
+</div>
+</div>
+</div>
+<table class="resultstable"><tr bgcolor="#C2C2C2">
+<td><a class="resultstable" href="#" onclick="Show_Search(); return;">Search Results</a>
+&nbsp;|&nbsp;<a class="resultstable" href="#" onclick="Show_Cart(); return;">Cart</a>
+&nbsp;|&nbsp;<a class="resultstable" href="#" onclick="Show_Tab(1); return;">Course Detail</a>
+&nbsp;|&nbsp;<A class="resultstable" HREF="mailto: Course_Scheduler_Feedback@brown.edu?subject=Course Scheduler Suggestions">Suggestions?</a></td>
+  </tr></table>
+</div>
+</div>
+</div>
+<IMG SRC="/wtlgifs/web_transparent.gif" ALT="Transparent Image" TITLE="Transparent Image"  NAME="web_transparent"
+     HSPACE=0 VSPACE=0 BORDER=0 HEIGHT=1 WIDTH=0 onLoad="setResults2(20,500);">

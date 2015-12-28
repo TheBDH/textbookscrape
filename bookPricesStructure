@@ -1,0 +1,12 @@
+{
+	"CRN": {
+		"Required": [{
+			"New": price_new,
+			"Used": price_used
+		}],
+		"Recommended": [{
+			"New": price_new,
+			"Used": price_used
+		}]
+	}
+}
